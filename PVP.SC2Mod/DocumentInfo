@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <Dependencies>
+        <Value>bnet:ALL RACES PVP DEPENDENCY/0.0/430186,file:Mods\all-races-mods\PVP DEPENDENCY.SC2Mod</Value>
+        <Value>file:Mods\all-races-tester\LOTV.SC2Mod</Value>
+        <Value>file:Mods\all-races-tester\SCION.SC2Mod</Value>
+        <Value>file:Mods\all-races-tester\UED.SC2Mod</Value>
+        <Value>file:Mods\all-races-tester\NHBR.SC2Mod</Value>
+        <Value>file:Mods\all-races-tester\DRAGON.SC2Mod</Value>
+        <Value>file:Mods\all-races-tester\UPL.SC2Mod</Value>
+    </Dependencies>
+</DocInfo>
