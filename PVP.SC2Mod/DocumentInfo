@@ -6,6 +6,6 @@
         <Value>bnet:[UTM] UED/0.0/206534,file:Mods\all-races-tester\UED.SC2Mod</Value>
         <Value>bnet:[UTM] Hybrids/0.0/206532,file:Mods\all-races-tester\NHBR.SC2Mod</Value>
         <Value>bnet:[UTM] Dragon/0.0/206531,file:Mods\all-races-tester\DRAGON.SC2Mod</Value>
-        <Value>bnet:[UTM] UPL/0.0/206537,file:Mods\all-races-tester\UPL.SC2Mod</Value>
+        <Value>bnet:[UTM] UPL/0.0/206537,file:Mods\all-races-mods\UPLBalance.SC2Mod</Value>
     </Dependencies>
 </DocInfo>
