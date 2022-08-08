@@ -196,12 +196,10 @@
             <Value Type="Param" Library="UTCO" Id="8B3DA676"/>
         </Element>
         <Element Type="Param" Id="8B3DA676">
-            <Variable Type="Variable" Library="UTES" Id="13CDFD03"/>
-            <Array Type="Param" Library="UTCO" Id="367FF5F0"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="04E08C40"/>
         </Element>
-        <Element Type="Param" Id="367FF5F0">
-            <Value>1</Value>
-            <ValueType Type="int"/>
+        <Element Type="FunctionCall" Id="04E08C40">
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000053"/>
         </Element>
         <Element Type="Variable" Id="B3BC140C">
             <VariableType>
@@ -384,18 +382,46 @@
             <Preset Type="PresetValue" Library="Ntve" Id="00000063"/>
         </Element>
         <Element Type="FunctionCall" Id="CF6BD1B2">
-            <FunctionDef Type="FunctionDef" Library="COMI" Id="58562525"/>
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="2BE2A3C9"/>
             <SubFunctionType Type="SubFuncType" Library="Ntve" Id="00000004"/>
-            <Parameter Type="Param" Library="UTCO" Id="39D499F0"/>
-            <Parameter Type="Param" Library="UTCO" Id="24C51B96"/>
+            <Parameter Type="Param" Library="UTCO" Id="31EEF684"/>
+            <Parameter Type="Param" Library="UTCO" Id="59C90F9E"/>
         </Element>
-        <Element Type="Param" Id="39D499F0">
-            <ParameterDef Type="ParamDef" Library="COMI" Id="824AE603"/>
+        <Element Type="Param" Id="31EEF684">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="AF8CD470"/>
             <Variable Type="Variable" Library="UTCO" Id="24421A72"/>
         </Element>
-        <Element Type="Param" Id="24C51B96">
-            <ParameterDef Type="ParamDef" Library="COMI" Id="3EC7357E"/>
+        <Element Type="Param" Id="59C90F9E">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="1D1F5C08"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="89055B1E"/>
+        </Element>
+        <Element Type="FunctionCall" Id="89055B1E">
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="D8DCE241"/>
+            <Parameter Type="Param" Library="UTCO" Id="4BAEA95C"/>
+            <Parameter Type="Param" Library="UTCO" Id="8976AC82"/>
+            <Parameter Type="Param" Library="UTCO" Id="D40EB186"/>
+            <Parameter Type="Param" Library="UTCO" Id="0F0AB344"/>
+        </Element>
+        <Element Type="Param" Id="4BAEA95C">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="68AA6D6F"/>
+            <Value>1</Value>
+            <ValueType Type="int"/>
+        </Element>
+        <Element Type="Param" Id="8976AC82">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="CDE53498"/>
+            <Value>PlayerCommanders</Value>
+            <ValueType Type="gamelink"/>
+            <ValueGameType Type="User"/>
+        </Element>
+        <Element Type="Param" Id="D40EB186">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="94E0250F"/>
             <Variable Type="Variable" Library="UTCO" Id="69381F1C"/>
+        </Element>
+        <Element Type="Param" Id="0F0AB344">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="F91B226F"/>
+            <Value>ZZ_CommanderData</Value>
+            <ValueType Type="userfield"/>
+            <ValueContext Value="PlayerCommanders"/>
         </Element>
         <Element Type="FunctionCall" Id="AB212BF9">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="D87D559C"/>
@@ -424,11 +450,19 @@
         </Element>
         <Element Type="FunctionCall" Id="01063CC2">
             <FunctionDef Type="FunctionDef" Library="COMI" Id="5874E572"/>
-            <Parameter Type="Param" Library="UTCO" Id="71A2E87D"/>
+            <Parameter Type="Param" Library="UTCO" Id="F1D275B8"/>
         </Element>
-        <Element Type="Param" Id="71A2E87D">
+        <Element Type="Param" Id="F1D275B8">
             <ParameterDef Type="ParamDef" Library="COMI" Id="9B32E245"/>
-            <Variable Type="Variable" Library="UTCO" Id="69381F1C"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="F2714CC8"/>
+        </Element>
+        <Element Type="FunctionCall" Id="F2714CC8">
+            <FunctionDef Type="FunctionDef" Library="COMI" Id="FEDA3C57"/>
+            <Parameter Type="Param" Library="UTCO" Id="D5F723D9"/>
+        </Element>
+        <Element Type="Param" Id="D5F723D9">
+            <ParameterDef Type="ParamDef" Library="COMI" Id="A1747D03"/>
+            <Variable Type="Variable" Library="UTCO" Id="24421A72"/>
         </Element>
         <Element Type="Param" Id="ED95948F">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="A66AF510"/>
@@ -437,9 +471,9 @@
         <Element Type="FunctionCall" Id="8D7E9B83">
             <FunctionDef Type="FunctionDef" Library="COMI" Id="B9BE9988"/>
             <SubFunctionType Type="SubFuncType" Library="Ntve" Id="00000004"/>
-            <Parameter Type="Param" Library="UTCO" Id="8D6E5166"/>
+            <Parameter Type="Param" Library="UTCO" Id="732EF7F7"/>
         </Element>
-        <Element Type="Param" Id="8D6E5166">
+        <Element Type="Param" Id="732EF7F7">
             <ParameterDef Type="ParamDef" Library="COMI" Id="21200D5F"/>
             <Variable Type="Variable" Library="UTCO" Id="24421A72"/>
         </Element>
@@ -1074,7 +1108,10 @@
         </Element>
         <Element Type="Param" Id="378C1A8E">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="4C0712B8"/>
-            <Variable Type="Variable" Library="COMI" Id="EB128F35"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="EBE4428A"/>
+        </Element>
+        <Element Type="FunctionCall" Id="EBE4428A">
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000192"/>
         </Element>
         <Element Type="FunctionCall" Id="2BA03349">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000136"/>
@@ -1111,31 +1148,31 @@
         </Element>
         <Element Type="FunctionCall" Id="99E68074">
             <FunctionDef Type="FunctionDef" Library="COMI" Id="363FE2F7"/>
-            <Parameter Type="Param" Library="UTCO" Id="D92C1C72"/>
-            <Parameter Type="Param" Library="UTCO" Id="54BEC71E"/>
-            <Parameter Type="Param" Library="UTCO" Id="EA0DAE7D"/>
-            <Parameter Type="Param" Library="UTCO" Id="D7EA06C3"/>
+            <Parameter Type="Param" Library="UTCO" Id="FC7D06C8"/>
+            <Parameter Type="Param" Library="UTCO" Id="FA43774B"/>
+            <Parameter Type="Param" Library="UTCO" Id="6764D170"/>
+            <Parameter Type="Param" Library="UTCO" Id="64A5187F"/>
         </Element>
-        <Element Type="Param" Id="D92C1C72">
+        <Element Type="Param" Id="FC7D06C8">
             <ParameterDef Type="ParamDef" Library="COMI" Id="62614FB7"/>
             <Preset Type="PresetValue" Library="Ntve" Id="79B4987E"/>
         </Element>
-        <Element Type="Param" Id="54BEC71E">
+        <Element Type="Param" Id="FA43774B">
             <ParameterDef Type="ParamDef" Library="COMI" Id="A6269E72"/>
             <Variable Type="Variable" Library="UTCO" Id="12376889"/>
-            <Array Type="Param" Library="UTCO" Id="4C32B0E4"/>
+            <Array Type="Param" Library="UTCO" Id="186A146E"/>
         </Element>
-        <Element Type="Param" Id="4C32B0E4">
+        <Element Type="Param" Id="186A146E">
             <Variable Type="Variable" Library="UTCO" Id="2069038E"/>
         </Element>
-        <Element Type="Param" Id="EA0DAE7D">
+        <Element Type="Param" Id="6764D170">
             <ParameterDef Type="ParamDef" Library="COMI" Id="9CF2D7D4"/>
-            <FunctionCall Type="FunctionCall" Library="UTCO" Id="17EB6C29"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="E33FFA35"/>
         </Element>
-        <Element Type="FunctionCall" Id="17EB6C29">
+        <Element Type="FunctionCall" Id="E33FFA35">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000192"/>
         </Element>
-        <Element Type="Param" Id="D7EA06C3">
+        <Element Type="Param" Id="64A5187F">
             <ParameterDef Type="ParamDef" Library="COMI" Id="A5D9B305"/>
             <Value>Coop_CommanderSelection/UnitIconFrameTemplate/Icon</Value>
             <ValueType Type="layoutframerel"/>
@@ -1158,7 +1195,10 @@
         </Element>
         <Element Type="Param" Id="A9B5F899">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="24AFC666"/>
-            <Variable Type="Variable" Library="COMI" Id="EB128F35"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="9CF94D31"/>
+        </Element>
+        <Element Type="FunctionCall" Id="9CF94D31">
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000192"/>
         </Element>
         <Element Type="FunctionCall" Id="86A3405E">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="E786CA75"/>
@@ -1180,7 +1220,10 @@
         </Element>
         <Element Type="Param" Id="E91A1E81">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="36F634F3"/>
-            <Variable Type="Variable" Library="COMI" Id="EB128F35"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="C56674AB"/>
+        </Element>
+        <Element Type="FunctionCall" Id="C56674AB">
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000192"/>
         </Element>
         <Element Type="FunctionCall" Id="5367CE23">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="9DE705AA"/>
@@ -1195,7 +1238,7 @@
             <FunctionCall Type="FunctionCall" Library="UTCO" Id="B6819A7C"/>
             <FunctionCall Type="FunctionCall" Library="UTCO" Id="1FC5F24A"/>
             <FunctionCall Type="FunctionCall" Library="UTCO" Id="0CE6E74F"/>
-            <FunctionCall Type="FunctionCall" Library="UTCO" Id="8F9B3A0C"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="38E8228C"/>
             <FunctionCall Type="FunctionCall" Library="UTCO" Id="FAC3EC76"/>
             <FunctionCall Type="FunctionCall" Library="UTCO" Id="53ACB683"/>
         </Element>
@@ -1504,7 +1547,10 @@
         </Element>
         <Element Type="Param" Id="13561FD5">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="4C0712B8"/>
-            <Variable Type="Variable" Library="COMI" Id="EB128F35"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="F9008F09"/>
+        </Element>
+        <Element Type="FunctionCall" Id="F9008F09">
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000192"/>
         </Element>
         <Element Type="FunctionCall" Id="1FC5F24A">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000136"/>
@@ -1545,47 +1591,47 @@
         <Element Type="FunctionCall" Id="761DAD01">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="4AB42F83"/>
         </Element>
-        <Element Type="FunctionCall" Id="8F9B3A0C">
+        <Element Type="FunctionCall" Id="38E8228C">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000136"/>
             <SubFunctionType Type="SubFuncType" Library="Ntve" Id="7C4B9D16"/>
-            <Parameter Type="Param" Library="UTCO" Id="975EBC40"/>
-            <Parameter Type="Param" Library="UTCO" Id="968C33D0"/>
+            <Parameter Type="Param" Library="UTCO" Id="9034CFCD"/>
+            <Parameter Type="Param" Library="UTCO" Id="D89C76F9"/>
         </Element>
-        <Element Type="Param" Id="975EBC40">
+        <Element Type="Param" Id="9034CFCD">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="00000219"/>
             <Variable Type="Variable" Library="UTCO" Id="BE1CF7DA"/>
         </Element>
-        <Element Type="Param" Id="968C33D0">
+        <Element Type="Param" Id="D89C76F9">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="00000220"/>
-            <FunctionCall Type="FunctionCall" Library="UTCO" Id="8B794B17"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="EBEF051E"/>
         </Element>
-        <Element Type="FunctionCall" Id="8B794B17">
+        <Element Type="FunctionCall" Id="EBEF051E">
             <FunctionDef Type="FunctionDef" Library="COMI" Id="363FE2F7"/>
-            <Parameter Type="Param" Library="UTCO" Id="2361A032"/>
-            <Parameter Type="Param" Library="UTCO" Id="41C5432D"/>
-            <Parameter Type="Param" Library="UTCO" Id="1CA2A1ED"/>
-            <Parameter Type="Param" Library="UTCO" Id="BAD396A9"/>
+            <Parameter Type="Param" Library="UTCO" Id="2F638E9B"/>
+            <Parameter Type="Param" Library="UTCO" Id="C0D1AA1D"/>
+            <Parameter Type="Param" Library="UTCO" Id="1B950E9C"/>
+            <Parameter Type="Param" Library="UTCO" Id="B9D17F7D"/>
         </Element>
-        <Element Type="Param" Id="2361A032">
+        <Element Type="Param" Id="2F638E9B">
             <ParameterDef Type="ParamDef" Library="COMI" Id="62614FB7"/>
             <Preset Type="PresetValue" Library="Ntve" Id="79B4987E"/>
         </Element>
-        <Element Type="Param" Id="41C5432D">
+        <Element Type="Param" Id="C0D1AA1D">
             <ParameterDef Type="ParamDef" Library="COMI" Id="A6269E72"/>
             <Variable Type="Variable" Library="UTCO" Id="12376889"/>
-            <Array Type="Param" Library="UTCO" Id="F73FF58C"/>
+            <Array Type="Param" Library="UTCO" Id="265B8BC3"/>
         </Element>
-        <Element Type="Param" Id="F73FF58C">
+        <Element Type="Param" Id="265B8BC3">
             <Variable Type="Variable" Library="UTCO" Id="2069038E"/>
         </Element>
-        <Element Type="Param" Id="1CA2A1ED">
+        <Element Type="Param" Id="1B950E9C">
             <ParameterDef Type="ParamDef" Library="COMI" Id="9CF2D7D4"/>
-            <FunctionCall Type="FunctionCall" Library="UTCO" Id="319A17FA"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="08996C7E"/>
         </Element>
-        <Element Type="FunctionCall" Id="319A17FA">
+        <Element Type="FunctionCall" Id="08996C7E">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000192"/>
         </Element>
-        <Element Type="Param" Id="BAD396A9">
+        <Element Type="Param" Id="B9D17F7D">
             <ParameterDef Type="ParamDef" Library="COMI" Id="A5D9B305"/>
             <Value>Coop_CommanderSelection/UnitIconFrameTemplate/Icon</Value>
             <ValueType Type="layoutframerel"/>
@@ -1625,7 +1671,7 @@
         </Element>
         <Element Type="Param" Id="43EA2EAC">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="F1975A48"/>
-            <Value>PrestigeIcon</Value>
+            <Value>Icon</Value>
             <ValueType Type="userfield"/>
             <ValueContext Value="PlayerCommanders"/>
         </Element>
@@ -1686,7 +1732,10 @@
         </Element>
         <Element Type="Param" Id="422AE152">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="36F634F3"/>
-            <Variable Type="Variable" Library="COMI" Id="EB128F35"/>
+            <FunctionCall Type="FunctionCall" Library="UTCO" Id="6A09E89A"/>
+        </Element>
+        <Element Type="FunctionCall" Id="6A09E89A">
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000192"/>
         </Element>
         <Element Type="FunctionCall" Id="3CA46E58">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="72C1FB76"/>

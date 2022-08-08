@@ -1,3 +1,2 @@
-﻿DocInfo/DescLong=Unit Tester - All Races PVP Data
-DocInfo/DescShort=1-2
-DocInfo/Name=ART - PVP Data
+﻿DocInfo/DescLong=Unit Tester PVP Data<n/>Includes <n/> - Keiron<n/> - Genetron<n/> - Xayid<n/> - Network Hybriids<n/> - UED<n/> - Dragons<n/> - UPL
+DocInfo/Name=[UTM] PVP

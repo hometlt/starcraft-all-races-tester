@@ -1,6 +1,5 @@
-﻿DocInfo/DescLong=Unit Tester - Scion Races Data
-DocInfo/DescShort=1-2
-DocInfo/Name=ART - Scion Data
+﻿DocInfo/DescLong=Unit Tester Scion Races Module<n/>Includes:<n/> - Xayid (Multiplayer)<n/> - Genetron (Multiplayer)<n/> - Keiron (Multiplayer)<n/>
+DocInfo/Name=[UTM] Scion Races
 Unit/Name/GenetronBuilder=Genetron Builder
 Unit/Name/KeironBuilder=Keiron Builder
 Unit/Name/XayidBuilder=Xayid Builder

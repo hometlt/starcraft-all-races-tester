@@ -1,7 +1,7 @@
 include "TriggerLibs/natives"
 
 //--------------------------------------------------------------------------------------------------
-// Library: UNIT TESTER - PVP
+// Library: UNIT TESTER - UED
 //--------------------------------------------------------------------------------------------------
 // Trigger Declarations
 trigger libUTUD_gt_Initialize;

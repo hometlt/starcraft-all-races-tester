@@ -1055,6 +1055,7 @@ bool libUTES_gt_InitializeUnitTesterInterface_Func (bool testConds, bool runActi
     int lv_activeUpgrades;
     string lv_builderType;
     unit lv_builderUnit;
+    int lv_yOffset;
 
     // Automatic Variable Declarations
     int auto10306AE0_ae;
@@ -1252,8 +1253,17 @@ bool libUTES_gt_InitializeUnitTesterInterface_Func (bool testConds, bool runActi
         libUTES_gv_settings_terrainbutton[lv_ii] = libUTES_gf_DialogItemFromLayoutHookup(c_triggerControlTypeButton, ("UIContainer/FullscreenUpperContainer/TesterPanel/SettingsPanel/ListLeft/Terrain/Buttons/Terrain" + IntToString(lv_ii)));
     }
     libUTES_gv_creator_panel = libUTES_gf_DialogItemFromLayoutHookup(c_triggerControlTypePanel, "UIContainer/FullscreenUpperContainer/TesterPanel/CreatorPanel");
+    libNtve_gf_SetDialogItemRenderPriority(libUTES_gv_creator_panel, 9999, PlayerGroupAll());
+    if ((UserDataInstanceCount("TFaction") > 17)) {
+        lv_yOffset = -8;
+    }
+    else {
+        lv_yOffset = 0;
+    }
     lv_ii = 0;
     for ( ; ( (autoEE612A24_ai >= 0 && lv_ii <= autoEE612A24_ae) || (autoEE612A24_ai < 0 && lv_ii >= autoEE612A24_ae) ) ; lv_ii += autoEE612A24_ai ) {
+        lv_side_panel = libUTES_gf_DialogItemFromLayoutHookup(c_triggerControlTypePanel, ("UIContainer/FullscreenUpperContainer/TesterPanel/CreatorPanel/RaceList_" + lv_side_str[lv_ii]));
+        libNtve_gf_SetDialogItemRenderPriority(lv_side_panel, 9999, PlayerGroupAll());
         libUTES_gv_factionsTotal = 0;
         libUTES_gv_buildersTotal = 0;
         lv_x = 0;
@@ -1267,11 +1277,11 @@ bool libUTES_gt_InitializeUnitTesterInterface_Func (bool testConds, bool runActi
                 continue;
             }
 
-            lv_side_panel = libUTES_gf_DialogItemFromLayoutHookup(c_triggerControlTypePanel, ("UIContainer/FullscreenUpperContainer/TesterPanel/CreatorPanel/RaceList_" + lv_side_str[lv_ii]));
             DialogControlCreateInPanelFromTemplate(lv_side_panel, c_triggerControlTypeButton, "Tester/TesterRaceButton_Blue");
+            libNtve_gf_SetDialogItemRenderPriority(DialogControlLastCreated(), 9999, PlayerGroupAll());
             DialogControlSetVisible(DialogControlLastCreated(), PlayerGroupAll(), true);
             DialogControlSetSize(DialogControlLastCreated(), PlayerGroupAll(), 31, 31);
-            DialogControlSetPosition(DialogControlLastCreated(), PlayerGroupAll(), c_anchorTopLeft, (lv_x * 31), (lv_y * 31));
+            DialogControlSetPosition(DialogControlLastCreated(), PlayerGroupAll(), c_anchorTopLeft, (lv_x * 31), ((lv_y * 31) + lv_yOffset));
             libUTES_gv_creator_racebutton[lv_ii][libUTES_gv_factionsTotal] = DialogControlLastCreated();
             DialogControlHookup(DialogControlLastCreated(), c_triggerControlTypeImage, "FaceImage");
             DialogControlSetVisible(DialogControlLastCreated(), PlayerGroupAll(), true);

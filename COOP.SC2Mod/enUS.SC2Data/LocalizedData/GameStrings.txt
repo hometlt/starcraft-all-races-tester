@@ -1,5 +1,5 @@
-﻿DocInfo/DescLong=Unit Tester - Coop Data<n/>
-DocInfo/Name=ART - ARC Data
+﻿DocInfo/DescLong=Unit Tester Coop Module<n/>
+DocInfo/Name=[UTM] COOP
 Param/Expression/lib_UTCO_74C992EE=Activating prestige for AI (commander: ~C~) (index: ~B~)  (upgrade: ~A~)
 Param/Value/lib_UTCO_8DD0D070=Too many Commanders
 Param/Value/lib_UTCO_DA191CD7=Disable Requirements

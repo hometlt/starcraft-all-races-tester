@@ -92,9 +92,9 @@
         </CardLayouts>
     </CUnit>
     <CUnit id="NagaBuilder" parent="TestBuilder">
-        <Race value="Naga"/>
         <Name value="Unit/Name/NagaBuilder"/>
         <Description value="Button/Tooltip/NagaBuilder"/>
+        <Race value="Naga"/>
         <AbilArray Link="NagaBuildCustom"/>
         <CardLayouts index="0">
             <LayoutButtons Face="CmdBuildNaga" Type="Submenu" SubmenuCardId="Lear" Row="2" Column="0"/>

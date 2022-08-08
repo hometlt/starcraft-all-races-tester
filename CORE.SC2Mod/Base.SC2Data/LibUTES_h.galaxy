@@ -4,7 +4,7 @@ include "TriggerLibs/natives"
 // Library: UNIT TESTER
 //--------------------------------------------------------------------------------------------------
 // Constants
-const int libUTES_gv_tMAXFACTIONS = 30;
+const int libUTES_gv_tMAXFACTIONS = 34;
 const int libUTES_gv_const_terrains = 9;
 const int libUTES_gv_const_players = 8;
 const int libUTES_gv_const_races = 8;

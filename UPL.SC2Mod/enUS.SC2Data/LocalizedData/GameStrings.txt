@@ -13,7 +13,8 @@ Button/Tooltip/MiningDrone2=Nano-Enabled Construction Robot<n/><n/><c val="#Colo
 Button/Tooltip/MiningDrone3=Nano-Enabled Construction Robot<n/><n/><c val="#ColorAttackInfo">Can attack ground units</c>
 Button/Tooltip/MyraDavisHealingPatch2=Heals target for <d ref="Effect,MyraDavisHealingPatchHeal2,VitalArray[0].Change"/> life.
 Button/Tooltip/Z2=Z-2 Enhanced Battle Suit<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units</c>
-DocInfo/DescLong=Completely devoid of any description whatsoever.
+DocInfo/DescLong=Unit Tester UPL Module<n/>Includes:<n/> - UPL Race (Multiplayer)
+DocInfo/Name=[UTM] UPL
 Effect/Name/MyraDavisHealingPatchHeal2=MyraDavis Healing Patch Heal
 Unit/Name/KatherineHalsey=Katherine Halsey
 Unit/Name/KatherineHalseyPistol=Doctor
@@ -21,6 +22,7 @@ Unit/Name/MiningDrone2=Mining Drone
 Unit/Name/MiningDrone3=Mining Drone
 Unit/Name/NewsHelicopter=Scout Helicopter
 Unit/Name/UPLBuilder=UPL Builder
+Unit/Name/UPLExhumer=Rich Exhumer
 Unit/Name/UnknownUnit=Unknown Unit
 Unit/Name/Z2=Z-2
 Unit/Subtitle/Z2=

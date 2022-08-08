@@ -1,6 +1,5 @@
-﻿DocInfo/DescLong=Unit Tester - All Races PVP Data
-DocInfo/DescShort=1-2
-DocInfo/Name=ART - ARM Data
+﻿DocInfo/DescLong=Unit Tester Hybrids Race Data<n/>Includes:<n/> - Network Hybrids (Multiplayer)
+DocInfo/Name=[UTM] Hybrids
 Unit/Name/GenetronBuilder=Genetron Builder
 Unit/Name/HybridsBuilder=Hybrids Builder
 Unit/Name/KeironBuilder=Keiron Builder

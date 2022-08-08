@@ -12,7 +12,6 @@ Button/EditorPrefix/KatherineHalseyBreatheOff2=(Halsey)
 Button/EditorPrefix/KatherineHalseyBreatheOn2=(Halsey)
 Button/EditorPrefix/MyraDavisHealingPatch2=LotC -
 Button/EditorSuffix/MyraDavisHealingPatch2=(Davis)
-Unit/EditorSuffix/KatherineHalseyPistol=(Pistol)
 Unit/EditorSuffix/Z2=(Z1)
 Validator/Name/EnemiesInRange8=EnemiesInRange8
 Validator/Name/NoEnemiesInRange8=NoEnemiesInRange8

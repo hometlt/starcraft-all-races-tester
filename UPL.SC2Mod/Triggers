@@ -33,7 +33,7 @@
         <Element Type="Param" Id="B5A60FD8">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="00000182"/>
             <ValueType Type="trigger"/>
-            <ValueElement Type="Trigger" Library="50365395" Id="69C9A938"/>
+            <ValueElement Type="Trigger" Library="UPLR" Id="2152A427"/>
         </Element>
     </Library>
 </TriggerData>

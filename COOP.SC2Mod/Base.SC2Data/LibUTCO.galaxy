@@ -1,6 +1,11 @@
 include "TriggerLibs/NativeLib"
 include "LibCOMI"
 include "LibUTES"
+include "LibUTES"
+include "LibCOMI"
+include "LibUTES"
+include "LibCOMI"
+include "LibUTES"
 
 include "LibUTCO_h"
 
@@ -10,6 +15,11 @@ include "LibUTCO_h"
 // External Library Initialization
 void libUTCO_InitLibraries () {
     libNtve_InitVariables();
+    libCOMI_InitVariables();
+    libUTES_InitVariables();
+    libUTES_InitVariables();
+    libCOMI_InitVariables();
+    libUTES_InitVariables();
     libCOMI_InitVariables();
     libUTES_InitVariables();
 }
@@ -58,11 +68,11 @@ void libUTCO_gf_CreateUnitTesterCommandersDialog () {
     DialogSetImageVisible(DialogLastCreated(), false);
     DialogControlCreateFromTemplate(DialogLastCreated(), c_triggerControlTypeButton, "Coop_CommanderSelection/UnitIconFrameTemplate");
     DialogControlSetSize(DialogControlLastCreated(), PlayerGroupAll(), 43, 43);
-    DialogControlSetPosition(DialogControlLastCreated(), libCOMI_gv_all, c_anchorBottomLeft, (0 + (libUTCO_gv_totalFactions * 45)), 0);
+    DialogControlSetPosition(DialogControlLastCreated(), PlayerGroupAll(), c_anchorBottomLeft, (0 + (libUTCO_gv_totalFactions * 45)), 0);
     libUTCO_gv_commanderButton[libUTCO_gv_totalFactions] = DialogControlLastCreated();
     lv_image = libCOMI_gf_HookUpDialogItemandshowforplayers("Icon", c_triggerControlTypeImage, libUTCO_gv_commanderButton[libUTCO_gv_totalFactions], PlayerGroupAll());
-    libNtve_gf_SetDialogItemImage(lv_image, "Assets\\Textures\\icon-health-zerg.dds", libCOMI_gv_all);
-    libNtve_gf_SetDialogItemTooltip(libUTCO_gv_commanderButton[libUTCO_gv_totalFactions], StringExternal("Param/Value/lib_UTCO_DA191CD7"), libCOMI_gv_all);
+    libNtve_gf_SetDialogItemImage(lv_image, "Assets\\Textures\\icon-health-zerg.dds", PlayerGroupAll());
+    libNtve_gf_SetDialogItemTooltip(libUTCO_gv_commanderButton[libUTCO_gv_totalFactions], StringExternal("Param/Value/lib_UTCO_DA191CD7"), PlayerGroupAll());
     auto5367CE23_ae = UserDataInstanceCount("PlayerCommanders");
     auto5367CE23_var = 1;
     for ( ; auto5367CE23_var <= auto5367CE23_ae; auto5367CE23_var += 1 ) {
@@ -79,12 +89,12 @@ void libUTCO_gf_CreateUnitTesterCommandersDialog () {
         libUTCO_gv_totalFactions += 1;
         DialogControlCreateFromTemplate(DialogLastCreated(), c_triggerControlTypeButton, "Coop_CommanderSelection/UnitIconFrameTemplate");
         DialogControlSetSize(DialogControlLastCreated(), PlayerGroupAll(), 43, 43);
-        DialogControlSetPosition(DialogControlLastCreated(), libCOMI_gv_all, c_anchorBottomLeft, (0 + (libUTCO_gv_totalFactions * 45)), 0);
+        DialogControlSetPosition(DialogControlLastCreated(), PlayerGroupAll(), c_anchorBottomLeft, (0 + (libUTCO_gv_totalFactions * 45)), 0);
         libUTCO_gv_commanderList[libUTCO_gv_totalFactions] = lv_commander;
         libUTCO_gv_commanderButton[libUTCO_gv_totalFactions] = DialogControlLastCreated();
         lv_image = libCOMI_gf_HookUpDialogItemandshowforplayers("Icon", c_triggerControlTypeImage, libUTCO_gv_commanderButton[libUTCO_gv_totalFactions], PlayerGroupAll());
-        libNtve_gf_SetDialogItemImage(lv_image, UserDataGetImagePath("PlayerCommanders", lv_commander, "PrestigeIcon", 1), libCOMI_gv_all);
-        libNtve_gf_SetDialogItemTooltip(libUTCO_gv_commanderButton[libUTCO_gv_totalFactions], UserDataGetText("PlayerCommanders", lv_commander, "Name", 1), libCOMI_gv_all);
+        libNtve_gf_SetDialogItemImage(lv_image, UserDataGetImagePath("PlayerCommanders", lv_commander, "Icon", 1), libCOMI_gv_all);
+        libNtve_gf_SetDialogItemTooltip(libUTCO_gv_commanderButton[libUTCO_gv_totalFactions], UserDataGetText("PlayerCommanders", lv_commander, "Name", 1), PlayerGroupAll());
     }
     DialogSetVisible(libUTCO_gv_commandersDialog, PlayerGroupAll(), true);
 }
@@ -127,7 +137,7 @@ bool libUTCO_gt_FactionButtonClicked_Func (bool testConds, bool runActions) {
     const int autoA4ACEC3B_ai = 1;
 
     // Variable Initialization
-    lv_player = libUTES_gv_side_player[1];
+    lv_player = EventPlayer();
 
     // Actions
     if (!runActions) {
@@ -146,9 +156,9 @@ bool libUTCO_gt_FactionButtonClicked_Func (bool testConds, bool runActions) {
             lv_new = libUTCO_gv_commanderList[lv_i];
             TechTreeRestrictionsEnable(lv_player, true);
             TechTreeRequirementsEnable(lv_player, true);
-            libCOMI_gf_CC_PlayerCommanderSet(lv_player, lv_new);
+            PlayerSetCommander(lv_player, UserDataGetGameLink("PlayerCommanders", lv_new, "ZZ_CommanderData", 1));
             PlayerSetCommanderLevel(lv_player, 15);
-            PlayerSetRace(lv_player, libCOMI_gf_GetCommanderSpawnRace(lv_new));
+            PlayerSetRace(lv_player, libCOMI_gf_GetCommanderSpawnRace(libCOMI_gf_ActiveCommanderForPlayer(lv_player)));
             libCOMI_gf_CC_ApplyTechNew(lv_player);
         }
 

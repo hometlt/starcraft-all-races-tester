@@ -3,17 +3,6 @@
     <CButton id="FluoriteDeposite">
         <Icon value="Assets\Textures\btn-doodad-fluoritedeposit.dds"/>
     </CButton>
-    <CButton id="KatherineHalseyBreatheOff2">
-        <Icon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
-    </CButton>
-    <CButton id="KatherineHalseyBreatheOn2">
-        <Icon value="Assets\Textures\btn-ability-upl-holdbreath.dds"/>
-    </CButton>
-    <CButton id="MyraDavisHealingPatch2">
-        <Icon value="Assets\Textures\btn-ability-UPL-FirstAid.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-UPL-FirstAid.dds"/>
-        <EditorCategories value="Race:Terran"/>
-    </CButton>
     <CButton id="RichFluoriteDeposite">
         <Icon value="Assets\Textures\btn-doodad-richfluoritedeposit.dds"/>
         <HotkeyAlias value="FluoriteDeposite"/>

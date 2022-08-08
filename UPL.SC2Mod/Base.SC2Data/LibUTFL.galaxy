@@ -1,6 +1,6 @@
 include "TriggerLibs/NativeLib"
 include "LibUTES"
-include "Lib50365395"
+include "LibUPLR"
 
 include "LibUTFL_h"
 
@@ -11,7 +11,7 @@ include "LibUTFL_h"
 void libUTFL_InitLibraries () {
     libNtve_InitVariables();
     libUTES_InitVariables();
-    lib50365395_InitVariables();
+    libUPLR_InitVariables();
 }
 
 // Triggers
@@ -25,7 +25,7 @@ bool libUTFL_gt_Initialize_Func (bool testConds, bool runActions) {
         return true;
     }
 
-    TriggerExecute(lib50365395_gt_InitializeUPLRace, true, false);
+    TriggerExecute(libUPLR_gt_InitializeUPLRace, true, false);
     return true;
 }
 

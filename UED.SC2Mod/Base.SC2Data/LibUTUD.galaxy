@@ -5,7 +5,7 @@ include "LibUEDC"
 include "LibUTUD_h"
 
 //--------------------------------------------------------------------------------------------------
-// Library: UNIT TESTER - PVP
+// Library: UNIT TESTER - UED
 //--------------------------------------------------------------------------------------------------
 // External Library Initialization
 void libUTUD_InitLibraries () {

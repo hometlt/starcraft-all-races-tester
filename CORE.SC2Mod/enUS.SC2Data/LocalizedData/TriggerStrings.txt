@@ -439,6 +439,7 @@ Variable/Name/lib_UTES_7833C679=TLevelUpgrade
 Variable/Name/lib_UTES_7B719366=player_access
 Variable/Name/lib_UTES_7B7A0F2B=buildersTotal
 Variable/Name/lib_UTES_7F3B3227=unit_type
+Variable/Name/lib_UTES_82607A16=yOffset
 Variable/Name/lib_UTES_86A0ACBF=const_players
 Variable/Name/lib_UTES_8725E564=settings_alliancebuttons
 Variable/Name/lib_UTES_8922C6DC=race

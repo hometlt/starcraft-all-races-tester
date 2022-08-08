@@ -32,7 +32,7 @@
     <CUnit id="OutlawBuilder" parent="TestBuilder">
         <Name value="Unit/Name/OutlawBuilder"/>
         <Description value="Button/Tooltip/OutlawBuilder"/>
-        <Race value="Terran"/>
+        <Race value="TerrO"/>
         <AbilArray Link="TychusTerranBuildCustom"/>
         <CardLayouts index="0">
             <LayoutButtons>
@@ -60,7 +60,7 @@
     <CUnit id="MarauderBuilder" parent="TestBuilder">
         <Name value="Unit/Name/MarauderBuilder"/>
         <Description value="Button/Tooltip/MarauderBuilder"/>
-        <Race value="Zerg"/>
+        <Race value="TerrM"/>
         <AbilArray Link="HHBuildCustom"/>
         <CardLayouts index="0">
             <LayoutButtons>
@@ -102,7 +102,7 @@
     <CUnit id="InfestedBuilder" parent="TestBuilder">
         <Name value="Unit/Name/InfestedBuilder"/>
         <Description value="Button/Tooltip/InfestedBuilder"/>
-        <Race value="Zerg"/>
+        <Race value="TerrI"/>
         <AbilArray Link="SIAdvancedBuildCustom"/>
         <CardLayouts index="0">
             <LayoutButtons>
@@ -143,7 +143,7 @@
     <CUnit id="SimulantBuilder" parent="TestBuilder">
         <Name value="Unit/Name/SimulantBuilder"/>
         <Description value="Button/Tooltip/SimulantBuilder"/>
-        <Race value="Zerg"/>
+        <Race value="ZergM"/>
         <AbilArray Link="ZergBuildStetmannCustom"/>
         <CardLayouts index="0">
             <LayoutButtons>
@@ -184,7 +184,7 @@
     <CUnit id="PrimalBuilder" parent="TestBuilder">
         <Name value="Unit/Name/PrimalBuilder"/>
         <Description value="Button/Tooltip/PrimalBuilder"/>
-        <Race value="Zerg"/>
+        <Race value="ZergP"/>
         <AbilArray Link="DehakaDroneMorphCustom"/>
         <CardLayouts index="0">
             <LayoutButtons>
@@ -253,17 +253,24 @@
         </CardLayouts>
     </CUnit>
     <CUnit id="ProtossBuilder">
-        <CardLayouts/>
-        <CardLayouts/>
-        <CardLayouts>
-            <LayoutButtons Face="WarpinObservatory" Type="AbilCmd" AbilCmd="ProtossBuild,Build27" Row="2" Column="2"/>
-            <LayoutButtons Face="WarpinArbiterTribunal" Type="AbilCmd" AbilCmd="ProtossBuild,Build28" Row="2" Column="1"/>
+        <CardLayouts index="2">
+            <LayoutButtons index="9" AbilCmd="ProtossBuildCustom,Build19"/>
+        </CardLayouts>
+        <CardLayouts index="3">
+            <LayoutButtons Face="WarpinObservatory" Type="AbilCmd" AbilCmd="ProtossBuildCustom,Build27" Row="2" Column="2"/>
+            <LayoutButtons Face="WarpinArbiterTribunal" Type="AbilCmd" AbilCmd="ProtossBuildCustom,Build28" Row="2" Column="1"/>
         </CardLayouts>
     </CUnit>
     <CUnit id="ZergBuilder">
         <CardLayouts index="2">
-            <LayoutButtons Face="DefilerMound" Type="AbilCmd" AbilCmd="ZergBuildCustom,Build29" Row="2" Column="1"/>
-            <LayoutButtons Face="QueensNest" Type="AbilCmd" AbilCmd="ZergBuildCustom,Build28" Row="2" Column="2"/>
+            <LayoutButtons Face="CreepTumor" Type="AbilCmd" AbilCmd="ZergBuildCustom,Build2" Row="2" Column="3"/>
+            <LayoutButtons Face="CreepColony" Type="AbilCmd" AbilCmd="ZergBuildCustom,Build26" Row="1" Column="3"/>
+        </CardLayouts>
+        <CardLayouts index="3">
+            <LayoutButtons Face="ScourgeNest" AbilCmd="ZergBuildCustom,Build25" Row="1" Column="0"/>
+            <LayoutButtons Face="DefilerMound" Type="AbilCmd" AbilCmd="ZergBuildCustom,Build28" Row="2" Column="1"/>
+            <LayoutButtons Face="QueensNest" Type="AbilCmd" AbilCmd="ZergBuildCustom,Build29" Row="2" Column="2"/>
+            <LayoutButtons Face="ScourgeNest" Type="AbilCmd" AbilCmd="ZergBuildCustom,Build30" Row="1" Column="2"/>
         </CardLayouts>
     </CUnit>
 </Catalog>

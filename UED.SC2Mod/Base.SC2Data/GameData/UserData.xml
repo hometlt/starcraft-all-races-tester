@@ -68,10 +68,10 @@
             <Unit Unit="UEDBuilder">
                 <Field Id="Builder"/>
             </Unit>
-            <Upgrade Upgrade="CloakingDrone">
+            <Upgrade Upgrade="UpgradeEnergeSupportShutl">
                 <Field Id="Upgrade"/>
             </Upgrade>
-            <Upgrade Upgrade="EnginSurchargeProtocols">
+            <Upgrade Upgrade="UpgradeEnergeCrimsonEye">
                 <Field Id="Upgrade" Index="1"/>
             </Upgrade>
             <Upgrade Upgrade="DroneRepairModule">
@@ -80,7 +80,7 @@
             <Upgrade Upgrade="IcarusCatalyst">
                 <Field Id="Upgrade" Index="3"/>
             </Upgrade>
-            <Upgrade Upgrade="OpticalFlare">
+            <Upgrade Upgrade="UpgradeOpticalFlare">
                 <Field Id="Upgrade" Index="4"/>
             </Upgrade>
             <Upgrade Upgrade="ProjectedGravityShield">
