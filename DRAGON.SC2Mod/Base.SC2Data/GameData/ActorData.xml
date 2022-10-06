@@ -124,7 +124,7 @@
     <CActorUnit id="AscendedHornedMagus">
         <UnitIcon value="Assets\Textures\btn-critter-tastelope.dds"/>
     </CActorUnit>
-    <CActorUnit id="AscendedHunter">
+    <CActorUnit id="AscendedDragonHunter">
         <UnitIcon value="Assets\Textures\btn-unit-zerg-ravasaur.dds"/>
     </CActorUnit>
     <CActorUnit id="AscendedPlodder">

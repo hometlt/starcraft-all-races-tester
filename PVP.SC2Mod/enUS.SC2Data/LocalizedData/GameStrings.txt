@@ -1,2 +1,44 @@
-﻿DocInfo/DescLong=Unit Tester PVP Data<n/>Includes <n/> - Keiron<n/> - Genetron<n/> - Xayid<n/> - Network Hybriids<n/> - UED<n/> - Dragons<n/> - UPL
+﻿Abil/Name/HalseyHealingPatch=HalseyHealingPatch
+Abil/Name/KatherineHalseyBreathe2=KatherineHalseyBreathe
+Abil/Name/UPLBuild2=Build
+Abil/Name/UnknownAbility=Unknown Ability
+Behavior/Name/KatherineHalseyBreathe3=Holding Breath
+Button/Name/BuildTechLab=Build Tech Lab
+Button/Name/FluoriteDeposite=Place Fluorite Deposite
+Button/Name/KatherineHalseyBreatheOff2=Exhale
+Button/Name/KatherineHalseyBreatheOn2=Hold Breath
+Button/Name/MyraDavisHealingPatch2=Healing Patch
+Button/Name/RichFluoriteDeposite=Place Rich Fluorite Deposite
+Button/Tooltip/BuildTechLab=Infantry-research structure. A Tech Lab can fit onto any production structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Marauders<n/>- Ghosts with Ghost Academy
+Button/Tooltip/BuildTechLabBarracks2=Infantry-research structure. A Tech Lab can fit onto any production structure.
+Button/Tooltip/KatherineHalseyBreatheOff2=Catch your breath.  The roaches can hear you now, whether you're in a hiding area or not.
+Button/Tooltip/KatherineHalseyBreatheOn2=Hold your breath in hiding areas to keep nearby roaches from hearing you.
+Button/Tooltip/MiningDrone2=Nano-Enabled Construction Robot<n/><n/><c val="#ColorAttackInfo">Can attack ground units</c>
+Button/Tooltip/MiningDrone3=Nano-Enabled Construction Robot<n/><n/><c val="#ColorAttackInfo">Can attack ground units</c>
+Button/Tooltip/MyraDavisHealingPatch2=Heals target for <d ref="Effect,MyraDavisHealingPatchHeal2,VitalArray[0].Change"/> life.
+Button/Tooltip/ProtossBuilder=
+Button/Tooltip/Z2=Z-2 Enhanced Battle Suit<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units</c>
+DocInfo/DescLong=Unit Tester PVP
 DocInfo/Name=[UTM] PVP
+Effect/Name/MyraDavisHealingPatchHeal2=MyraDavis Healing Patch Heal
+Unit/Name/DragonBuilder=Dragon Builder
+Unit/Name/GenetronBuilder=Genetron Builder
+Unit/Name/HybridsBuilder=Hybrids Builder
+Unit/Name/KatherineHalsey=Katherine Halsey
+Unit/Name/KatherineHalseyPistol=Doctor
+Unit/Name/KeironBuilder=Keiron Builder
+Unit/Name/MiningDrone2=Mining Drone
+Unit/Name/MiningDrone3=Mining Drone
+Unit/Name/NewsHelicopter=Scout Helicopter
+Unit/Name/ProtossBuilder=Protoss Builder
+Unit/Name/TerranBuilder=Terran Builder
+Unit/Name/TestBuilder=Zerg Builder
+Unit/Name/UEDBuilder=UED Builder
+Unit/Name/UPLBuilder=UPL Builder
+Unit/Name/UPLExhumer=Rich Exhumer
+Unit/Name/UnknownUnit=Unknown Unit
+Unit/Name/XayidBuilder=Xayid Builder
+Unit/Name/Z2=Z-2
+Unit/Name/ZergBuilder=Zerg Builder
+Unit/Subtitle/Z2=
+UnitKillRank/Z2=Master Sergeant

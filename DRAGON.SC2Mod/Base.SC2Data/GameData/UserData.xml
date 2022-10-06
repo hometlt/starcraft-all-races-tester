@@ -35,7 +35,7 @@
             <Unit Unit="HornedMagus">
                 <Field Id="Unit" Index="8"/>
             </Unit>
-            <Unit Unit="Hunter">
+            <Unit Unit="DragonHunter">
                 <Field Id="Unit" Index="9"/>
             </Unit>
             <Unit Unit="Plodder">
@@ -77,7 +77,7 @@
             <Unit Unit="AscendedHornedMagus">
                 <Field Id="Unit" Index="22"/>
             </Unit>
-            <Unit Unit="AscendedHunter">
+            <Unit Unit="AscendedDragonHunter">
                 <Field Id="Unit" Index="23"/>
             </Unit>
             <Unit Unit="AscendedPlodder">
