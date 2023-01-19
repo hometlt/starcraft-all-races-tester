@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUser id="TFaction">
+        <Instances Id="LOTVTerran">
+            <Image Image="Assets\Textures\icon-1v1-terran.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <String String="Terrans LOTV">
+                <Field Id="Name"/>
+            </String>
+            <Unit Unit="LOTVMarine">
+                <Field Id="Unit"/>
+            </Unit>
+            <Unit Unit="LOTVReaper">
+                <Field Id="Unit" Index="1"/>
+            </Unit>
+            <Unit Unit="LOTVMarauder">
+                <Field Id="Unit" Index="2"/>
+            </Unit>
+            <Unit Unit="LOTVGhost">
+                <Field Id="Unit" Index="3"/>
+            </Unit>
+            <Unit Unit="LOTVHellionTank">
+                <Field Id="Unit" Index="4"/>
+            </Unit>
+            <Unit Unit="LOTVWidowMine">
+                <Field Id="Unit" Index="7"/>
+            </Unit>
+            <Unit Unit="LOTVHellion">
+                <Field Id="Unit" Index="8"/>
+            </Unit>
+            <Unit Unit="LOTVCyclone">
+                <Field Id="Unit" Index="9"/>
+            </Unit>
+            <Unit Unit="LOTVSiegeTank">
+                <Field Id="Unit" Index="10"/>
+            </Unit>
+            <Unit Unit="LOTVThor">
+                <Field Id="Unit" Index="11"/>
+            </Unit>
+            <Unit Unit="LOTVVikingAssault">
+                <Field Id="Unit" Index="12"/>
+            </Unit>
+            <Unit Unit="LOTVVikingFighter">
+                <Field Id="Unit" Index="14"/>
+            </Unit>
+            <Unit Unit="LOTVLiberator">
+                <Field Id="Unit" Index="15"/>
+            </Unit>
+            <Unit Unit="LOTVBanshee">
+                <Field Id="Unit" Index="16"/>
+            </Unit>
+            <Unit Unit="LOTVMedivac">
+                <Field Id="Unit" Index="17"/>
+            </Unit>
+            <Unit Unit="LOTVRaven">
+                <Field Id="Unit" Index="18"/>
+            </Unit>
+            <Unit Unit="LOTVBattlecruiser">
+                <Field Id="Unit" Index="19"/>
+            </Unit>
+            <Unit Unit="LOTVSCV">
+                <Field Id="Unit" Index="21"/>
+            </Unit>
+            <Unit Unit="LOTVTerranBuilderMP">
+                <Field Id="Builder"/>
+            </Unit>
+            <Unit Unit="LOTVMULE">
+                <Field Id="Unit" Index="5"/>
+            </Unit>
+            <Upgrade Upgrade="LOTVTerranBuildingArmor">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVHiSecAutoTracking">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVShieldWall">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVStimpack">
+                <Field Id="Upgrade" Index="3"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVPunisherGrenades">
+                <Field Id="Upgrade" Index="4"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVHighCapacityBarrels">
+                <Field Id="Upgrade" Index="5"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVCycloneLockOnDamageUpgrade">
+                <Field Id="Upgrade" Index="6"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVDrillClaws">
+                <Field Id="Upgrade" Index="7"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVSmartServos">
+                <Field Id="Upgrade" Index="8"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVRavenCorvidReactor">
+                <Field Id="Upgrade" Index="9"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVBansheeCloak">
+                <Field Id="Upgrade" Index="10"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVBansheeSpeed">
+                <Field Id="Upgrade" Index="11"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVPersonalCloaking">
+                <Field Id="Upgrade" Index="12"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVEnhancedShockwaves">
+                <Field Id="Upgrade" Index="13"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVBattlecruiserEnableSpecializations">
+                <Field Id="Upgrade" Index="14"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVMedivacIncreaseSpeedBoost">
+                <Field Id="Upgrade" Index="15"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVLiberatorAGRangeUpgrade">
+                <Field Id="Upgrade" Index="16"/>
+            </Upgrade>
+            <User Type="TLevelUpgrades" Instance="LOTVTerranInfantryArmor">
+                <Field Id="LevelledUpgrades"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVTerranInfantryWeapons">
+                <Field Id="LevelledUpgrades" Index="1"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVTerranVehicleWeapons">
+                <Field Id="LevelledUpgrades" Index="2"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVTerranVehicle Plating">
+                <Field Id="LevelledUpgrades" Index="3"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVTerranShipWeapons">
+                <Field Id="LevelledUpgrades" Index="4"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVTerranShip Plating">
+                <Field Id="LevelledUpgrades" Index="5"/>
+            </User>
+        </Instances>
+        <Instances Id="LOTVZerg">
+            <Image Image="Assets\Textures\icon-1v1-zerg.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <String String="Zergs LOTV">
+                <Field Id="Name"/>
+            </String>
+            <Unit Unit="LOTVZergling">
+                <Field Id="Unit"/>
+            </Unit>
+            <Unit Unit="LOTVQueen">
+                <Field Id="Unit" Index="7"/>
+            </Unit>
+            <Unit Unit="LOTVBaneling">
+                <Field Id="Unit" Index="1"/>
+            </Unit>
+            <Unit Unit="LOTVRavager">
+                <Field Id="Unit" Index="8"/>
+            </Unit>
+            <Unit Unit="LOTVRoach">
+                <Field Id="Unit" Index="2"/>
+            </Unit>
+            <Unit Unit="LOTVLurkerMP">
+                <Field Id="Unit" Index="9"/>
+            </Unit>
+            <Unit Unit="LOTVInfestor">
+                <Field Id="Unit" Index="10"/>
+            </Unit>
+            <Unit Unit="LOTVHydralisk">
+                <Field Id="Unit" Index="3"/>
+            </Unit>
+            <Unit Unit="LOTVBroodling">
+                <Field Id="Unit" Index="4"/>
+            </Unit>
+            <Unit Unit="LOTVMutalisk">
+                <Field Id="Unit" Index="14"/>
+            </Unit>
+            <Unit Unit="LOTVCorruptor">
+                <Field Id="Unit" Index="15"/>
+            </Unit>
+            <Unit Unit="LOTVBroodLord">
+                <Field Id="Unit" Index="16"/>
+            </Unit>
+            <Unit Unit="LOTVViper">
+                <Field Id="Unit" Index="17"/>
+            </Unit>
+            <Unit Unit="LOTVDrone">
+                <Field Id="Unit" Index="21"/>
+            </Unit>
+            <Unit Unit="LOTVOverlord">
+                <Field Id="Unit" Index="22"/>
+            </Unit>
+            <Unit Unit="LOTVZergBuilderMP">
+                <Field Id="Builder"/>
+            </Unit>
+            <Unit Unit="LOTVSwarmHostMP">
+                <Field Id="Unit" Index="11"/>
+            </Unit>
+            <Unit Unit="LOTVOverlordTransport">
+                <Field Id="Unit" Index="18"/>
+            </Unit>
+            <Unit Unit="LOTVLocustMPFlying">
+                <Field Id="Unit" Index="5"/>
+            </Unit>
+            <Unit Unit="LOTVUltralisk">
+                <Field Id="Unit" Index="12"/>
+            </Unit>
+            <Unit Unit="LOTVOverseer">
+                <Field Id="Unit" Index="19"/>
+            </Unit>
+            <Upgrade Upgrade="LOTVBurrow">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVoverlordspeed">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVzerglingmovementspeed">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVzerglingattackspeed">
+                <Field Id="Upgrade" Index="3"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVGlialReconstitution">
+                <Field Id="Upgrade" Index="4"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTunnelingClaws">
+                <Field Id="Upgrade" Index="5"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVCentrificalHooks">
+                <Field Id="Upgrade" Index="6"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVEvolveGroovedSpines">
+                <Field Id="Upgrade" Index="7"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVHydraliskSpeedUpgrade">
+                <Field Id="Upgrade" Index="8"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVDiggingClaws">
+                <Field Id="Upgrade" Index="9"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVLurkerRange">
+                <Field Id="Upgrade" Index="10"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVInfestorEnergyUpgrade">
+                <Field Id="Upgrade" Index="11"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVNeuralParasite">
+                <Field Id="Upgrade" Index="12"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVChitinousPlating">
+                <Field Id="Upgrade" Index="13"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVAnabolicSynthesis">
+                <Field Id="Upgrade" Index="14"/>
+            </Upgrade>
+            <User Type="TLevelUpgrades" Instance="LOTVZergMeleeAttacks">
+                <Field Id="LevelledUpgrades"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVZergMissileAttacks">
+                <Field Id="LevelledUpgrades" Index="1"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVZergGround Carapace">
+                <Field Id="LevelledUpgrades" Index="2"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVZergFlyerAttacks">
+                <Field Id="LevelledUpgrades" Index="3"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVZergFlyer Carapace">
+                <Field Id="LevelledUpgrades" Index="4"/>
+            </User>
+        </Instances>
+        <Instances Id="LOTVProtoss">
+            <Image Image="Assets\Textures\icon-1v1-protoss.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <String String="Protoss LOTV">
+                <Field Id="Name"/>
+            </String>
+            <Unit Unit="LOTVZealot">
+                <Field Id="Unit"/>
+            </Unit>
+            <Unit Unit="LOTVAdept">
+                <Field Id="Unit" Index="1"/>
+            </Unit>
+            <Unit Unit="LOTVStalker">
+                <Field Id="Unit" Index="2"/>
+            </Unit>
+            <Unit Unit="LOTVSentry">
+                <Field Id="Unit" Index="3"/>
+            </Unit>
+            <Unit Unit="LOTVDarkTemplar">
+                <Field Id="Unit" Index="4"/>
+            </Unit>
+            <Unit Unit="LOTVHighTemplar">
+                <Field Id="Unit" Index="5"/>
+            </Unit>
+            <Unit Unit="LOTVArchon">
+                <Field Id="Unit" Index="7"/>
+            </Unit>
+            <Unit Unit="LOTVImmortal">
+                <Field Id="Unit" Index="8"/>
+            </Unit>
+            <Unit Unit="LOTVColossus">
+                <Field Id="Unit" Index="9"/>
+            </Unit>
+            <Unit Unit="LOTVDisruptor">
+                <Field Id="Unit" Index="10"/>
+            </Unit>
+            <Unit Unit="LOTVObserver">
+                <Field Id="Unit" Index="11"/>
+            </Unit>
+            <Unit Unit="LOTVWarpPrism">
+                <Field Id="Unit" Index="12"/>
+            </Unit>
+            <Unit Unit="LOTVPhoenix">
+                <Field Id="Unit" Index="14"/>
+            </Unit>
+            <Unit Unit="LOTVOracle">
+                <Field Id="Unit" Index="15"/>
+            </Unit>
+            <Unit Unit="LOTVVoidRay">
+                <Field Id="Unit" Index="16"/>
+            </Unit>
+            <Unit Unit="LOTVTempest">
+                <Field Id="Unit" Index="17"/>
+            </Unit>
+            <Unit Unit="LOTVCarrier">
+                <Field Id="Unit" Index="18"/>
+            </Unit>
+            <Unit Unit="LOTVMothership">
+                <Field Id="Unit" Index="19"/>
+            </Unit>
+            <Unit Unit="LOTVProbe">
+                <Field Id="Unit" Index="21"/>
+            </Unit>
+            <Unit Unit="LOTVProtossBuilderMP">
+                <Field Id="Builder"/>
+            </Unit>
+            <Upgrade Upgrade="LOTVCharge">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVBlinkTech">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVAdeptPiercingAttack">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVWarpGateResearch">
+                <Field Id="Upgrade" Index="3"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVPsiStormTech">
+                <Field Id="Upgrade" Index="4"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVDarkTemplarBlinkUpgrade">
+                <Field Id="Upgrade" Index="5"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVObserverGraviticBooster">
+                <Field Id="Upgrade" Index="6"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVGraviticDrive">
+                <Field Id="Upgrade" Index="7"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVExtendedThermalLance">
+                <Field Id="Upgrade" Index="8"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVPhoenixRangeUpgrade">
+                <Field Id="Upgrade" Index="9"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVVoidRaySpeedUpgrade">
+                <Field Id="Upgrade" Index="10"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTempestGroundAttackUpgrade">
+                <Field Id="Upgrade" Index="11"/>
+            </Upgrade>
+            <User Type="TLevelUpgrades" Instance="LOTVProtossGroundWeapons">
+                <Field Id="LevelledUpgrades"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVProtossGroundArmor">
+                <Field Id="LevelledUpgrades" Index="1"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVProtossShields">
+                <Field Id="LevelledUpgrades" Index="2"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVProtossAirArmor">
+                <Field Id="LevelledUpgrades" Index="3"/>
+            </User>
+            <User Type="TLevelUpgrades" Instance="LOTVProtossAirWeapons">
+                <Field Id="LevelledUpgrades" Index="4"/>
+            </User>
+        </Instances>
+    </CUser>
+    <CUser id="TLevelUpgrades">
+        <Instances Id="LOTVTerranInfantryWeapons">
+            <Upgrade Upgrade="LOTVTerranInfantryWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranInfantryWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranInfantryWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranInfantryArmor">
+            <Upgrade Upgrade="LOTVTerranInfantryArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranInfantryArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranInfantryArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranShip Plating">
+            <Upgrade Upgrade="LOTVTerranShipArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranShipArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranShipArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranShipWeapons">
+            <Upgrade Upgrade="LOTVTerranShipWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranShipWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranShipWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranVehicle Plating">
+            <Upgrade Upgrade="LOTVTerranVehicleArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranVehicleArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranVehicleArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranVehicleWeapons">
+            <Upgrade Upgrade="LOTVTerranVehicleWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranVehicleWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranVehicleWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranInfantryWeapons">
+            <Upgrade Upgrade="LOTVTerranInfantryWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranInfantryWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranInfantryWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranInfantryArmor">
+            <Upgrade Upgrade="LOTVTerranInfantryArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranInfantryArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranInfantryArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranShip Plating">
+            <Upgrade Upgrade="LOTVTerranShipArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranShipArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranShipArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranShipWeapons">
+            <Upgrade Upgrade="LOTVTerranShipWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranShipWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranShipWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranVehicle Plating">
+            <Upgrade Upgrade="LOTVTerranVehicleArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranVehicleArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranVehicleArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVTerranVehicleWeapons">
+            <Upgrade Upgrade="LOTVTerranVehicleWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranVehicleWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVTerranVehicleWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVProtossShields">
+            <Upgrade Upgrade="LOTVProtossShieldsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossShieldsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossShieldsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVProtossGroundArmor">
+            <Upgrade Upgrade="LOTVProtossGroundArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossGroundArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossGroundArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVProtossGroundWeapons">
+            <Upgrade Upgrade="LOTVProtossGroundWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossGroundWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossGroundWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVProtossAirArmor">
+            <Upgrade Upgrade="LOTVProtossAirArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossAirArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossAirArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVProtossAirWeapons">
+            <Upgrade Upgrade="LOTVProtossAirWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossAirWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVProtossAirWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVZergMeleeAttacks">
+            <Upgrade Upgrade="LOTVZergMeleeWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergMeleeWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergMeleeWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVZergMissileAttacks">
+            <Upgrade Upgrade="LOTVZergMissileWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergMissileWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergMissileWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVZergGround Carapace">
+            <Upgrade Upgrade="LOTVZergGroundArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergGroundArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergGroundArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVZergFlyer Carapace">
+            <Upgrade Upgrade="LOTVZergFlyerArmorsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergFlyerArmorsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergFlyerArmorsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+        <Instances Id="LOTVZergFlyerAttacks">
+            <Upgrade Upgrade="LOTVZergFlyerWeaponsLevel1">
+                <Field Id="Upgrade"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergFlyerWeaponsLevel2">
+                <Field Id="Upgrade" Index="1"/>
+            </Upgrade>
+            <Upgrade Upgrade="LOTVZergFlyerWeaponsLevel3">
+                <Field Id="Upgrade" Index="2"/>
+            </Upgrade>
+        </Instances>
+    </CUser>
+</Catalog>

@@ -6,22 +6,8 @@
   <Race value="Prot"/>
   <AbilArray Link="ProtossBuildCustom"/>
   <CardLayouts index="0">
-    <LayoutButtons>
-      <Face value="ProtossBuild"/>
-      <Type value="Submenu"/>
-      <AbilCmd value="255,255"/>
-      <SubmenuCardId value="PBl1"/>
-      <Row value="2"/>
-      <Column value="0"/>
-    </LayoutButtons>
-    <LayoutButtons>
-      <Face value="ProtossBuildAdvanced"/>
-      <Type value="Submenu"/>
-      <AbilCmd value="255,255"/>
-      <SubmenuCardId value="PBl2"/>
-      <Row value="2"/>
-      <Column value="1"/>
-    </LayoutButtons>
+    <LayoutButtons Face="ProtossBuild" Type="Submenu" AbilCmd="255,255" SubmenuCardId="PBl1" Row="2" Column="0"/>
+    <LayoutButtons Face="ProtossBuildAdvanced" Type="Submenu" AbilCmd="255,255" SubmenuCardId="PBl2" Row="2" Column="1"/>
   </CardLayouts>
   <CardLayouts CardId="PBl1">
     <LayoutButtons Face="Nexus" Type="AbilCmd" AbilCmd="ProtossBuildCustom,Build1" Row="0" Column="0"/>
@@ -58,22 +44,8 @@
   <Race value="Terr"/>
   <AbilArray Link="TerranBuildCustom"/>
   <CardLayouts index="0">
-    <LayoutButtons>
-      <Face value="TerranBuild"/>
-      <Type value="Submenu"/>
-      <AbilCmd value="move,Move"/>
-      <SubmenuCardId value="TBl1"/>
-      <Row value="2"/>
-      <Column value="0"/>
-    </LayoutButtons>
-    <LayoutButtons>
-      <Face value="TerranBuildAdvanced"/>
-      <Type value="Submenu"/>
-      <AbilCmd value="stop,Stop"/>
-      <SubmenuCardId value="TBl2"/>
-      <Row value="2"/>
-      <Column value="1"/>
-    </LayoutButtons>
+    <LayoutButtons Face="TerranBuild" Type="Submenu" AbilCmd="move,Move" SubmenuCardId="TBl1" Row="2" Column="0"/>
+    <LayoutButtons Face="TerranBuildAdvanced" Type="Submenu" AbilCmd="stop,Stop" SubmenuCardId="TBl2" Row="2" Column="1"/>
   </CardLayouts>
   <CardLayouts CardId="TBl1">
     <LayoutButtons Face="CommandCenter" Type="AbilCmd" AbilCmd="TerranBuildCustom,Build1" Row="0" Column="0"/>
@@ -107,22 +79,8 @@
   <Race value="Zerg"/>
   <AbilArray Link="ZergBuildCustom"/>
   <CardLayouts index="0">
-    <LayoutButtons>
-      <Face value="ZergBuild"/>
-      <Type value="Submenu"/>
-      <AbilCmd value="255,255"/>
-      <SubmenuCardId value="ZBl1"/>
-      <Row value="2"/>
-      <Column value="0"/>
-    </LayoutButtons>
-    <LayoutButtons>
-      <Face value="ZergBuildAdvanced"/>
-      <Type value="Submenu"/>
-      <AbilCmd value="255,255"/>
-      <SubmenuCardId value="ZBl2"/>
-      <Row value="2"/>
-      <Column value="1"/>
-    </LayoutButtons>
+    <LayoutButtons Face="ZergBuild" Type="Submenu" AbilCmd="255,255" SubmenuCardId="ZBl1" Row="2" Column="0"/>
+    <LayoutButtons Face="ZergBuildAdvanced" Type="Submenu" AbilCmd="255,255" SubmenuCardId="ZBl2" Row="2" Column="1"/>
   </CardLayouts>
   <CardLayouts CardId="ZBl1">
     <LayoutButtons Face="Hatchery" Type="AbilCmd" AbilCmd="ZergBuildCustom,Build1" Row="0" Column="0"/>
@@ -233,14 +191,7 @@
   <Race value="Xayid"/>
   <AbilArray Link="FormStructuresCustom"/>
   <CardLayouts index="0">
-    <LayoutButtons>
-      <Face value="FormBasicStructure"/>
-      <Type value="Submenu"/>
-      <AbilCmd value="FormStructures,Build1"/>
-      <SubmenuCardId value="0002"/>
-      <Row value="2"/>
-      <Column value="0"/>
-    </LayoutButtons>
+    <LayoutButtons Face="FormBasicStructure" Type="Submenu" AbilCmd="FormStructures,Build1" SubmenuCardId="0002" Row="2" Column="0"/>
     <LayoutButtons Face="FormAdvancedStructure" Type="Submenu" SubmenuCardId="0003" Row="2" Column="1"/>
   </CardLayouts>
   <CardLayouts CardId="0002">

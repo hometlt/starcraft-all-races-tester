@@ -12,17 +12,6 @@
                 <Field Id="Upgrade" Index="2"/>
             </Upgrade>
         </Instances>
-        <Instances Id="UPLShipArmor">
-            <Upgrade Upgrade="UPLShipPlatingLevel1">
-                <Field Id="Upgrade"/>
-            </Upgrade>
-            <Upgrade Upgrade="UPLShipPlatingLevel2">
-                <Field Id="Upgrade" Index="1"/>
-            </Upgrade>
-            <Upgrade Upgrade="UPLShipPlatingLevel3">
-                <Field Id="Upgrade" Index="2"/>
-            </Upgrade>
-        </Instances>
         <Instances Id="UPLVehicleArmor">
             <Upgrade Upgrade="UPLVehiclePlatingLevel1">
                 <Field Id="Upgrade"/>
@@ -42,17 +31,6 @@
                 <Field Id="Upgrade" Index="1"/>
             </Upgrade>
             <Upgrade Upgrade="UPLInfantryWeaponsLevel3">
-                <Field Id="Upgrade" Index="2"/>
-            </Upgrade>
-        </Instances>
-        <Instances Id="UPLShipWeapons">
-            <Upgrade Upgrade="UPLShipWeaponsLevel1">
-                <Field Id="Upgrade"/>
-            </Upgrade>
-            <Upgrade Upgrade="UPLShipWeaponsLevel2">
-                <Field Id="Upgrade" Index="1"/>
-            </Upgrade>
-            <Upgrade Upgrade="UPLShipWeaponsLevel3">
                 <Field Id="Upgrade" Index="2"/>
             </Upgrade>
         </Instances>
@@ -121,11 +99,14 @@
             <Unit Unit="MiningDrone">
                 <Field Id="Unit" Index="21"/>
             </Unit>
-            <Unit Unit="CARR">
+            <Unit Unit="Behemoth">
                 <Field Id="Unit" Index="17"/>
             </Unit>
             <Unit Unit="Z1">
-                <Field Id="Unit" Index="18"/>
+                <Field Id="Unit" Index="11"/>
+            </Unit>
+            <Unit Unit="CARR">
+                <Field Id="Unit" Index="12"/>
             </Unit>
             <Upgrade Upgrade="CSVPersonnelCarrier">
                 <Field Id="Upgrade"/>
@@ -160,41 +141,35 @@
             <Upgrade Upgrade="InfantryRifleRangeUpgrade">
                 <Field Id="Upgrade" Index="10"/>
             </Upgrade>
-            <Upgrade Upgrade="InfantryRocket1Range">
-                <Field Id="Upgrade" Index="11"/>
-            </Upgrade>
             <Upgrade Upgrade="InfantryRocketAOE">
                 <Field Id="Upgrade" Index="12"/>
             </Upgrade>
             <Upgrade Upgrade="RoutheTankArmorPlating">
                 <Field Id="Upgrade" Index="13"/>
             </Upgrade>
-            <Upgrade Upgrade="RoutheTankExplosiveShells">
-                <Field Id="Upgrade" Index="14"/>
-            </Upgrade>
-            <Upgrade Upgrade="Z1SpeedUpgrade">
-                <Field Id="Upgrade" Index="15"/>
-            </Upgrade>
             <Upgrade Upgrade="InfantryMedkit">
                 <Field Id="Upgrade" Index="16"/>
+            </Upgrade>
+            <Upgrade Upgrade="Z1EnergyUpgrade">
+                <Field Id="Upgrade" Index="17"/>
+            </Upgrade>
+            <Upgrade Upgrade="UPLRaptorIncendiary">
+                <Field Id="Upgrade" Index="11"/>
+            </Upgrade>
+            <Upgrade Upgrade="UPLMiningDronesGrenadeLauncher">
+                <Field Id="Upgrade" Index="14"/>
             </Upgrade>
             <User Type="TLevelUpgrades" Instance="UPLInfantryArmor">
                 <Field Id="LevelledUpgrades"/>
             </User>
-            <User Type="TLevelUpgrades" Instance="UPLShipArmor">
+            <User Type="TLevelUpgrades" Instance="UPLVehicleArmor">
                 <Field Id="LevelledUpgrades" Index="1"/>
             </User>
-            <User Type="TLevelUpgrades" Instance="UPLVehicleArmor">
+            <User Type="TLevelUpgrades" Instance="UPLInfantryWeapons">
                 <Field Id="LevelledUpgrades" Index="2"/>
             </User>
-            <User Type="TLevelUpgrades" Instance="UPLInfantryWeapons">
-                <Field Id="LevelledUpgrades" Index="3"/>
-            </User>
-            <User Type="TLevelUpgrades" Instance="UPLShipWeapons">
-                <Field Id="LevelledUpgrades" Index="4"/>
-            </User>
             <User Type="TLevelUpgrades" Instance="UPLVehicleWeapons">
-                <Field Id="LevelledUpgrades" Index="5"/>
+                <Field Id="LevelledUpgrades" Index="3"/>
             </User>
         </Instances>
     </CUser>

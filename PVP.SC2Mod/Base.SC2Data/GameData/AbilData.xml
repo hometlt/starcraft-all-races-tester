@@ -5,41 +5,41 @@
   <InfoArray index="Build2" Time="1"/>
   <InfoArray index="Build3" Time="1"/>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build9" Time="1"/>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build13" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build14" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build15" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build16" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build17" Time="1"/>
   <InfoArray index="Build18" Time="1"/>
@@ -55,39 +55,39 @@
   <InfoArray index="Build2" Time="1"/>
   <InfoArray index="Build3" Time="1"/>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1"/>
   <InfoArray index="Build9" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build13" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build14" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build15" Time="1"/>
   <InfoArray index="Build16" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build17" Time="1"/>
   <InfoArray index="Build18" Time="1"/>
@@ -114,48 +114,48 @@
   <InfoArray index="Build2" Time="1"/>
   <InfoArray index="Build3" Time="1"/>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build9" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build13" Time="1"/>
   <InfoArray index="Build14" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build15" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build16" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build17" Time="1"/>
   <InfoArray index="Build18" Time="1"/>
   <InfoArray index="Build19" Time="1"/>
   <InfoArray index="Build20" Time="1"/>
   <InfoArray index="Build21" Unit="Lair" Time="1">
-    <Button DefaultButtonFace="Lair" Requirements=""/>
+    <Button DefaultButtonFace="Lair"/>
   </InfoArray>
   <InfoArray index="Build22" Unit="Hive" Time="1">
     <Button DefaultButtonFace="Hive"/>
@@ -176,13 +176,13 @@
   <InfoArray index="Build1" Time="1"/>
   <InfoArray index="Build2" Time="1"/>
   <InfoArray index="Build3" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1"/>
   <InfoArray index="Build7" Time="1"/>
@@ -205,46 +205,46 @@
   <InfoArray index="Build1" Time="1"/>
   <InfoArray index="Build2" Time="1"/>
   <InfoArray index="Build3" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build9" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build13" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build14" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build15" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build16" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build17" Time="1"/>
   <InfoArray index="Build18" Time="1"/>
@@ -257,33 +257,33 @@
   <InfoArray index="Build2" Time="1"/>
   <InfoArray index="Build3" Time="1"/>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1"/>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build9" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build13" Time="1"/>
   <InfoArray index="Build14" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build15" Time="1"/>
   <InfoArray index="Build16" Time="1"/>
@@ -295,36 +295,36 @@
 <CAbilBuild id="MechStructuresCustom" parent="MechStructures">
   <InfoArray index="Build1" Time="1"/>
   <InfoArray index="Build2" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build3" Time="1"/>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build9" Time="1"/>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build13" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build14" Time="1"/>
   <InfoArray index="Build15" Time="1"/>
@@ -344,48 +344,48 @@
   <InfoArray index="Build3" Time="1"/>
   <InfoArray index="Build4" Time="1"/>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1"/>
   <InfoArray index="Build9" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build13" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build14" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build15" Time="1"/>
   <InfoArray index="Build16" Time="1"/>
   <InfoArray index="Build17" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build18" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build19" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build20" Time="1"/>
 </CAbilBuild>
 <CAbilEffectTarget id="CalldownEnrichmentTowerCustom" parent="CalldownEnrichmentTower">
-  <CmdButtonArray index="Execute" Requirements=""/>
+  <CmdButtonArray index="Execute"/>
 </CAbilEffectTarget>
 <CAbilBuild id="UEDCalldownStructureCustom" parent="BeaconBuild">
   <EditorCategories value="Race:UED,AbilityorEffectType:Structures"/>
@@ -396,28 +396,28 @@
   <InfoArray index="Build2" Time="1"/>
   <InfoArray index="Build3" Time="1"/>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build9" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1"/>
   <InfoArray index="Build13" Time="1"/>
@@ -450,44 +450,46 @@
   </InfoArray>
 </CAbilBuild>
 <CAbilBuild id="UPLBuildCustom" parent="UPLBuild">
+  <FlagArray index="PeonHide" value="0"/>
+  <FlagArray index="PeonKillFinish" value="0"/>
   <FlagArray index="PeonMaintained" value="0"/>
   <InfoArray index="Build1" Time="1"/>
   <InfoArray index="Build2" Time="1"/>
   <InfoArray index="Build3" Time="1"/>
   <InfoArray index="Build4" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build5" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build6" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build7" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build8" Time="1"/>
   <InfoArray index="Build9" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build10" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build11" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build12" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build13" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build14" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build15" Time="1"/>
   <InfoArray index="Build16" Time="1">
-    <Button Requirements=""/>
+    <Button/>
   </InfoArray>
   <InfoArray index="Build17" Time="1"/>
   <InfoArray index="Build18" Time="1"/>

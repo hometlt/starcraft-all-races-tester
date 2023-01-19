@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorUnit id="LOTVZergBuilderMP" parent="GenericUnitStandard" unitName="LOTVDrone">
+        <Macros value="CarryAnim"/>
+        <Macros value="BuildAnim"/>
+        <Macros value="ZergBurrowStandardAnimMacro"/>
+        <Macros value="ZergSmallBurrowEffects"/>
+        <On index="0" Terms="UnitBirth.LOTVZergBuilderMP"/>
+        <On index="1" Terms="UnitBirth.LOTVZergBuilderMP"/>
+        <On index="2" Terms="UnitRevive.LOTVZergBuilderMP"/>
+        <On index="3" Terms="UnitConstruction.LOTVZergBuilderMP.Start"/>
+        <On index="4" Terms="UnitConstruction.LOTVZergBuilderMP.Finish"/>
+        <Scale value="1.500000"/>
+        <DeathArray index="Normal" ModelLink="DroneDeath" SoundLink="Drone_Explode"/>
+        <DeathArray index="Disintegrate" ModelLink="DroneDeathAcid" SoundLink="Uni_DeathFXAcid"/>
+        <DeathArray index="Fire" ModelLink="DroneDeathFire" SoundLink="Uni_DeathFXFire"/>
+        <PortraitModel value="DronePortrait"/>
+        <BarOffset value="40"/>
+        <BarWidth value="42"/>
+        <HeroIcon value="Assets\Textures\btn-unit-zerg-drone.dds"/>
+        <HighlightTooltip value="Unit/Name/LOTVZergBuilderMP"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level0.dds"/>
+        <SoundArray index="Help" value="Alert_ZergEconomyUnderAttack"/>
+        <UnitIcon value="Assets\Textures\btn-unit-zerg-drone.dds"/>
+    </CActorUnit>
+    <CActorUnit id="LOTVProtossBuilderMP" parent="GenericUnitStandard" unitName="LOTVProbe">
+        <Macros value="CarryAnim"/>
+        <Macros value="BuildAnim"/>
+        <On index="0" Terms="UnitBirth.LOTVProtossBuilderMP"/>
+        <On index="1" Terms="UnitBirth.LOTVProtossBuilderMP"/>
+        <On index="2" Terms="UnitRevive.LOTVProtossBuilderMP"/>
+        <On index="3" Terms="UnitConstruction.LOTVProtossBuilderMP.Start"/>
+        <On index="4" Terms="UnitConstruction.LOTVProtossBuilderMP.Finish"/>
+        <HostSiteOps Ops="SOpBankerProbe"/>
+        <Scale value="1.500000"/>
+        <AnimBlendTime value="0.250000"/>
+        <DeathArray index="Normal" ModelLink="ProbeDeath" SoundLink="Probe_Explode"/>
+        <DeathCustoms ModelLink="HallucinationDeath" Name="Hallucination"/>
+        <PortraitModel value="ProbePortrait"/>
+        <BarOffset value="40"/>
+        <BarWidth value="42"/>
+        <ErrorArray Error="MustTargetUnit" Sound="Alert_ProtossPlaceOnVespeneGeyser"/>
+        <HeroIcon value="Assets\Textures\btn-unit-protoss-probe.dds"/>
+        <HighlightTooltip value="Unit/Name/ProtossBuilderMP"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel0.dds"/>
+        <SoundArray index="Help" value="Alert_ProtossEconomyUnderAttack"/>
+        <UnitIcon value="Assets\Textures\btn-unit-protoss-probe.dds"/>
+    </CActorUnit>
+    <CActorUnit id="LOTVTerranMPBuilder" parent="GenericUnitStandard" unitName="LOTVSCV">
+        <Macros value="CarryAnim"/>
+        <On index="0" Terms="UnitBirth.LOTVTerranBuilderMP"/>
+        <On index="1" Terms="UnitBirth.LOTVTerranBuilderMP"/>
+        <On index="2" Terms="UnitRevive.LOTVTerranBuilderMP"/>
+        <On index="3" Terms="UnitConstruction.LOTVTerranBuilderMP.Start"/>
+        <On index="4" Terms="UnitConstruction.LOTVTerranBuilderMP.Finish"/>
+        <Scale value="1.500000"/>
+        <AnimBlendTime value="0.500000"/>
+        <DeathArray index="Normal" ModelLink="SCVDeath" SoundLink="SCV_Explode"/>
+        <PortraitModel value="SCVPortrait"/>
+        <BarOffset value="40"/>
+        <BarWidth value="42"/>
+        <HeroIcon value="Assets\Textures\btn-unit-terran-scv.dds"/>
+        <HighlightTooltip value="Unit/Name/TerranMPBuilder"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel0.dds"/>
+        <SoundArray index="Help" value="Alert_TerranEconomyUnderAttack"/>
+        <UnitIcon value="Assets\Textures\btn-unit-terran-scv.dds"/>
+    </CActorUnit>
+</Catalog>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilBuild id="LOTVProtossBuildCustomMP">
+        <Name value="Abil/Name/LOTVProtossBuild"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DataCollection value="ProtossBuild"/>
+        <FlagArray index="PeonDisableCollision" value="1"/>
+        <FlagArray index="PeonMaintained" value="0"/>
+        <InfoArray index="Build1" Unit="LOTVNexus" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVNexus"/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="LOTVPylon" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVPylon"/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="LOTVAssimilator" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVAssimilator"/>
+            <ValidatorArray value="HasVespene"/>
+        </InfoArray>
+        <InfoArray index="Build4" Unit="LOTVGateway" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVGateway" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build5" Unit="LOTVForge" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVForge"/>
+        </InfoArray>
+        <InfoArray index="Build6" Unit="LOTVFleetBeacon" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVFleetBeacon" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build7" Unit="LOTVTwilightCouncil" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVTwilightCouncil" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build8" Unit="LOTVPhotonCannon" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVPhotonCannon"/>
+        </InfoArray>
+        <InfoArray index="Build9" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build10" Unit="LOTVStargate" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVStargate" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build11" Unit="LOTVTemplarArchive" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVTemplarArchive" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build12" Unit="LOTVDarkShrine" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVDarkShrine" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build13" Unit="LOTVRoboticsBay" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVRoboticsBay" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build14" Unit="LOTVRoboticsFacility" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVRoboticsFacility" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build15" Unit="LOTVCyberneticsCore" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVCyberneticsCore" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build16" Unit="LOTVShieldBattery" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVShieldBattery" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build17" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build18" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build19" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build20" Time="1">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build21" Unit="LOTVWarpGate">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+            <Button DefaultButtonFace="LOTVUpgradeToWarpGate"/>
+        </InfoArray>
+        <InfoArray index="Build22">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build23">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build24">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build25">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build26">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build27">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build28">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build29">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <InfoArray index="Build30">
+            <Charge Link="Abil/ProtossBuild"/>
+            <Cooldown Link="Abil/ProtossBuild"/>
+        </InfoArray>
+        <ConstructionMover value="Construction"/>
+    </CAbilBuild>
+    <CAbilBuild id="LOTVTerranMPBuildCustom">
+        <Name value="Abil/Name/LOTVTerranBuild"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <DataCollection value="TerranBuild"/>
+        <FlagArray index="Interruptible" value="1"/>
+        <FlagArray index="PeonDisableCollision" value="1"/>
+        <FlagArray index="PeonMaintained" value="0"/>
+        <InfoArray index="Build1" Unit="LOTVCommandCenter" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVCommandCenter" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="LOTVSupplyDepot" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVSupplyDepot"/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="LOTVRefinery" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVRefinery"/>
+            <ValidatorArray value="HasVespene"/>
+        </InfoArray>
+        <InfoArray index="Build4" Unit="LOTVBarracks" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVBarracks" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build5" Unit="LOTVEngineeringBay" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVEngineeringBay" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build6" Unit="LOTVMissileTurret" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVMissileTurret" State="Restricted"/>
+        </InfoArray>
+        <InfoArray index="Build7" Unit="LOTVBunker" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVBunker" State="Restricted"/>
+        </InfoArray>
+        <InfoArray index="Build8" Unit="LOTVRefineryRich" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVRefinery"/>
+            <ValidatorArray value="HasVespene"/>
+        </InfoArray>
+        <InfoArray index="Build9" Unit="LOTVSensorTower" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVSensorTower" State="Restricted"/>
+        </InfoArray>
+        <InfoArray index="Build10" Unit="LOTVGhostAcademy" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVGhostAcademy" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build11" Unit="LOTVFactory" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVFactory" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build12" Unit="LOTVStarport" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVStarport" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build13" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build14" Unit="LOTVArmory" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVArmory" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build15" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build16" Unit="LOTVFusionCore" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVFusionCore" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build17" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build18" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build19" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build20" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build21" Unit="LOTVOrbitalCommand">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVOrbitalCommand"/>
+        </InfoArray>
+        <InfoArray index="Build22" Unit="LOTVPlanetaryFortress">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVPlanetaryFortress"/>
+        </InfoArray>
+        <InfoArray index="Build23" Unit="LOTVTechLab" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVBuildTechLab"/>
+        </InfoArray>
+        <InfoArray index="Build24" Unit="LOTVReactor" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="LOTVReactor"/>
+        </InfoArray>
+        <FidgetDelayMin value="5"/>
+        <FidgetDelayMax value="10"/>
+        <ConstructionMover value="Construction"/>
+    </CAbilBuild>
+    <CAbilBuild id="LOTVZergBuildCustomMP">
+        <Name value="Abil/Name/LOTVZergBuild"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
+        <DataCollection value="ZergBuild"/>
+        <FlagArray index="PeonMaintained" value="0"/>
+        <FlagArray index="RangeIncludesBuilding" value="0"/>
+        <InfoArray index="Build1" Unit="LOTVHatchery" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVHatchery"/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="LOTVCreepTumor" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVCreepTumor"/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="LOTVExtractor" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVExtractor"/>
+            <ValidatorArray value="HasVespene"/>
+        </InfoArray>
+        <InfoArray index="Build4" Unit="LOTVSpawningPool" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVSpawningPool"/>
+        </InfoArray>
+        <InfoArray index="Build5" Unit="LOTVEvolutionChamber" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVEvolutionChamber"/>
+        </InfoArray>
+        <InfoArray index="Build6" Unit="LOTVHydraliskDen" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVHydraliskDen"/>
+        </InfoArray>
+        <InfoArray index="Build7" Unit="LOTVSpire" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVSpire"/>
+        </InfoArray>
+        <InfoArray index="Build8" Unit="LOTVUltraliskCavern" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVUltraliskCavern"/>
+        </InfoArray>
+        <InfoArray index="Build9" Unit="LOTVInfestationPit" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVInfestationPit"/>
+        </InfoArray>
+        <InfoArray index="Build10" Unit="LOTVNydusNetwork" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVNydusNetwork"/>
+        </InfoArray>
+        <InfoArray index="Build11" Unit="LOTVBanelingNest" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVBanelingNest"/>
+        </InfoArray>
+        <InfoArray index="Build12" Unit="LOTVLurkerDenMP" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVMutateintoLurkerDenMP"/>
+        </InfoArray>
+        <InfoArray index="Build13" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build14" Unit="LOTVRoachWarren" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVRoachWarren"/>
+        </InfoArray>
+        <InfoArray index="Build15" Unit="LOTVSpineCrawler" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVSpineCrawler"/>
+        </InfoArray>
+        <InfoArray index="Build16" Unit="LOTVSporeCrawler" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVSporeCrawler"/>
+        </InfoArray>
+        <InfoArray index="Build17" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build18" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build19" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build20" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build21" Unit="LOTVLair" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVLair"/>
+        </InfoArray>
+        <InfoArray index="Build22" Unit="LOTVHive" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVHive"/>
+        </InfoArray>
+        <InfoArray index="Build23" Unit="LOTVGreaterSpire" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVGreaterSpire"/>
+        </InfoArray>
+        <InfoArray index="Build24" Unit="LOTVNydusCanal" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVSummonNydusWorm"/>
+        </InfoArray>
+        <InfoArray index="Build25" Unit="LOTVCreepTumor" Time="1">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+            <Button DefaultButtonFace="LOTVCreepTumor"/>
+        </InfoArray>
+        <InfoArray index="Build26">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build27">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build28">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build29">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+        <InfoArray index="Build30">
+            <Charge Link="Abil/ZergBuild"/>
+            <Cooldown Link="Abil/ZergBuild"/>
+        </InfoArray>
+    </CAbilBuild>
+</Catalog>

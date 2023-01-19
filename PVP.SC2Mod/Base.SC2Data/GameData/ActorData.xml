@@ -179,12 +179,7 @@
   <DeathActorModel value="UnitDeathModelWithDeathMotionGround"/>
   <DeathActorModelLow value="UnitDeathModel"/>
   <PortraitModel value="CrabeetlePortrait"/>
-  <TerrainSquibs>
-    <GroupName value="RippleStandard"/>
-    <MovementDistance value="0.150000,0.150000"/>
-    <IdlePeriod value="0.100000,0.250000"/>
-    <RangeUp value="1.000000"/>
-    <RangeDown value="1.000000"/>
+  <TerrainSquibs GroupName="RippleStandard" MovementDistance="0.150000,0.150000" IdlePeriod="0.100000,0.250000" RangeUp="1.000000" RangeDown="1.000000">
     <AttachQuery Methods="AMFilterCenter"/>
     <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous"/>
   </TerrainSquibs>
@@ -268,12 +263,7 @@
   <DeathArray index="Fire" ModelLink="DroneDeathFire"/>
   <PlacementModel value="Scavenger"/>
   <PortraitModel value="DronePortrait"/>
-  <TerrainSquibs>
-    <GroupName value="RippleStandard"/>
-    <MovementDistance value="0.150000,0.150000"/>
-    <IdlePeriod value="0.100000,0.250000"/>
-    <RangeUp value="1.000000"/>
-    <RangeDown value="1.000000"/>
+  <TerrainSquibs GroupName="RippleStandard" MovementDistance="0.150000,0.150000" IdlePeriod="0.100000,0.250000" RangeUp="1.000000" RangeDown="1.000000">
     <AttachQuery Methods="AMFilterCenter"/>
     <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleMedium"/>
   </TerrainSquibs>
@@ -338,11 +328,7 @@
   <ModelFlags index="OutlineEmitter" value="1"/>
   <BuildModel value="ACR"/>
   <DeathArray index="Normal" ModelLink="ACRDeath" SoundLink="Mule_Explode" VoiceLink="##unitName##DeathVoice"/>
-  <DeathCustoms>
-    <ActorModel value="ACRDeathActor"/>
-    <AnimProps value="Alternate"/>
-    <ModelLink value="ACRDeath"/>
-    <Name value="RagdollBasic"/>
+  <DeathCustoms ActorModel="ACRDeathActor" AnimProps="Alternate" ModelLink="ACRDeath" Name="RagdollBasic">
     <BodySquibs Name="Basic" Model="TerranSquibDeathRagdoll"/>
   </DeathCustoms>
   <DeathCustoms Name="RagdollSiegeTank" InheritsFrom="RagdollBasic"/>
@@ -406,12 +392,7 @@
   <ModelFlags index="OutlineEmitter" value="1"/>
   <EventDataFootprint index="0" Actor="UnitFootprint" Model="BogusFootprint"/>
   <BuildModel value="Converter"/>
-  <DeathArray index="Normal">
-    <ActorModel value="KeironUnitDeathExplosionSmallBlood"/>
-    <ModelLink value="KeironSmallUnitDeath"/>
-    <SoundLink value="BogusDeath"/>
-    <VoiceLink value="BogusDeathVoice"/>
-  </DeathArray>
+  <DeathArray index="Normal" ActorModel="KeironUnitDeathExplosionSmallBlood" ModelLink="KeironSmallUnitDeath" SoundLink="BogusDeath" VoiceLink="BogusDeathVoice"/>
   <PlacementModel value="Converter"/>
   <PlacementSound value="Keiron_BuildingPlacementSmall"/>
   <PlacementActorModel value="PlacementModelKeiron"/>
