@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocInfo>
     <Dependencies>
-        <Value>bnet:[UTM] CORE/0.0/311422,file:Mods\all-races-tester\CORE.SC2Mod</Value>
+        <Value>bnet:Void (Campaign)/0.0/999,file:Campaigns/Void.SC2Campaign</Value>
+        <Value>file:Mods\all-races-assets\BroodWar.SC2Mod</Value>
         <Value>file:Mods\all-races-mods\MP - BroodWar.SC2Mod</Value>
+        <Value>bnet:[UTM] CORE/0.0/311422,file:Mods\all-races-tester\CORE.SC2Mod</Value>
     </Dependencies>
 </DocInfo>

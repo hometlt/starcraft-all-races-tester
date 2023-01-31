@@ -62,7 +62,7 @@
             <Unit Unit="WOLSCV">
                 <Field Id="Unit" Index="21"/>
             </Unit>
-            <Unit Unit="TerranBuilderMP">
+            <Unit Unit="WOLTerranBuilderMP">
                 <Field Id="Builder"/>
             </Unit>
             <Unit Unit="WOLMULE">
@@ -190,7 +190,7 @@
             <Unit Unit="WOLOverlord">
                 <Field Id="Unit" Index="22"/>
             </Unit>
-            <Unit Unit="ZergBuilderMP">
+            <Unit Unit="WOLZergBuilderMP">
                 <Field Id="Builder"/>
             </Unit>
             <Unit Unit="WOLSwarmHostMP">
@@ -333,7 +333,7 @@
             <Unit Unit="WOLProbe">
                 <Field Id="Unit" Index="21"/>
             </Unit>
-            <Unit Unit="ProtossBuilderMP">
+            <Unit Unit="WOLProtossBuilderMP">
                 <Field Id="Builder"/>
             </Unit>
             <Upgrade Upgrade="WOLCharge">

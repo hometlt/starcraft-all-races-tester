@@ -25,7 +25,7 @@
         <AIOverideTargetPriority value="10"/>
         <AbilArray Link="move"/>
         <AbilArray Link="CustomBuild"/>
-        <AbilArray Link="ProtossBuildCustomMP"/>
+        <AbilArray Link="WOLProtossBuildCustomMP"/>
         <CardLayouts>
             <LayoutButtons>
                 <Face value="BuildNeutralStructure"/>
@@ -62,26 +62,26 @@
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
         </CardLayouts>
         <CardLayouts CardId="PBl1">
-            <LayoutButtons Face="WOLNexus" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build1" Row="0" Column="0"/>
-            <LayoutButtons Face="WOLAssimilator" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build3" Row="0" Column="1"/>
-            <LayoutButtons Face="WOLPylon" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build2" Row="0" Column="2"/>
-            <LayoutButtons Face="WOLGateway" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build4" Row="1" Column="0"/>
-            <LayoutButtons Face="WOLForge" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build5" Row="1" Column="1"/>
-            <LayoutButtons Face="WOLCyberneticsCore" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build15" Row="2" Column="0"/>
+            <LayoutButtons Face="WOLNexus" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build1" Row="0" Column="0"/>
+            <LayoutButtons Face="WOLAssimilator" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build3" Row="0" Column="1"/>
+            <LayoutButtons Face="WOLPylon" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build2" Row="0" Column="2"/>
+            <LayoutButtons Face="WOLGateway" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build4" Row="1" Column="0"/>
+            <LayoutButtons Face="WOLForge" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build5" Row="1" Column="1"/>
+            <LayoutButtons Face="WOLCyberneticsCore" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build15" Row="2" Column="0"/>
             <LayoutButtons Face="WOLCancel" Type="CancelSubmenu" Row="2" Column="4"/>
-            <LayoutButtons Face="WOLPhotonCannon" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build8" Row="2" Column="1"/>
-            <LayoutButtons Face="WOLShieldBattery" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build16" Row="2" Column="2"/>
-            <LayoutButtons Face="WOLUpgradeToWarpGate" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build21" Row="0" Column="4"/>
+            <LayoutButtons Face="WOLPhotonCannon" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build8" Row="2" Column="1"/>
+            <LayoutButtons Face="WOLShieldBattery" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build16" Row="2" Column="2"/>
+            <LayoutButtons Face="WOLUpgradeToWarpGate" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build21" Row="0" Column="4"/>
         </CardLayouts>
         <CardLayouts CardId="PBl2">
-            <LayoutButtons Face="WOLStargate" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build10" Row="0" Column="1"/>
-            <LayoutButtons Face="WOLTemplarArchive" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build11" Row="1" Column="0"/>
-            <LayoutButtons Face="WOLRoboticsFacility" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build14" Row="0" Column="2"/>
-            <LayoutButtons Face="WOLFleetBeacon" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build6" Row="1" Column="1"/>
+            <LayoutButtons Face="WOLStargate" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build10" Row="0" Column="1"/>
+            <LayoutButtons Face="WOLTemplarArchive" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build11" Row="1" Column="0"/>
+            <LayoutButtons Face="WOLRoboticsFacility" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build14" Row="0" Column="2"/>
+            <LayoutButtons Face="WOLFleetBeacon" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build6" Row="1" Column="1"/>
             <LayoutButtons Face="WOLCancel" Type="CancelSubmenu" Row="2" Column="4"/>
-            <LayoutButtons Face="WOLDarkShrine" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build12" Row="2" Column="0"/>
-            <LayoutButtons Face="WOLTwilightCouncil" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build7" Row="0" Column="0"/>
-            <LayoutButtons Face="WOLRoboticsBay" Type="AbilCmd" AbilCmd="WOLProtossBuildCustomMP,Build13" Row="1" Column="2"/>
+            <LayoutButtons Face="WOLDarkShrine" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build12" Row="2" Column="0"/>
+            <LayoutButtons Face="WOLTwilightCouncil" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build7" Row="0" Column="0"/>
+            <LayoutButtons Face="WOLRoboticsBay" Type="AbilCmd" AbilCmd="WOLWOLProtossBuildCustomMP,Build13" Row="1" Column="2"/>
         </CardLayouts>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
@@ -125,7 +125,7 @@
         <AIOverideTargetPriority value="10"/>
         <AbilArray Link="move"/>
         <AbilArray Link="CustomBuild"/>
-        <AbilArray Link="TerranMPBuildCustom"/>
+        <AbilArray Link="WOLTerranMPBuildCustom"/>
         <CardLayouts>
             <LayoutButtons>
                 <Face value="BuildNeutralStructure"/>
@@ -162,29 +162,29 @@
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
         </CardLayouts>
         <CardLayouts CardId="TBl1">
-            <LayoutButtons Face="WOLCommandCenter" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build1" Row="0" Column="0"/>
-            <LayoutButtons Face="WOLRefinery" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build3" Row="0" Column="1"/>
-            <LayoutButtons Face="WOLSupplyDepot" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build2" Row="0" Column="2"/>
-            <LayoutButtons Face="WOLBarracks" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build4" Row="1" Column="0"/>
-            <LayoutButtons Face="WOLEngineeringBay" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build5" Row="1" Column="1"/>
-            <LayoutButtons Face="WOLBunker" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build7" Row="2" Column="0"/>
-            <LayoutButtons Face="WOLMissileTurret" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build6" Row="2" Column="1"/>
-            <LayoutButtons Face="WOLSensorTower" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build9" Row="1" Column="2"/>
-            <LayoutButtons Face="WOLPlanetaryFortress" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build22" Row="1" Column="4"/>
-            <LayoutButtons Face="WOLBuildTechLab" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build23" Row="0" Column="3"/>
-            <LayoutButtons Face="WOLReactor" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build24" Row="0" Column="4"/>
+            <LayoutButtons Face="WOLCommandCenter" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build1" Row="0" Column="0"/>
+            <LayoutButtons Face="WOLRefinery" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build3" Row="0" Column="1"/>
+            <LayoutButtons Face="WOLSupplyDepot" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build2" Row="0" Column="2"/>
+            <LayoutButtons Face="WOLBarracks" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build4" Row="1" Column="0"/>
+            <LayoutButtons Face="WOLEngineeringBay" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build5" Row="1" Column="1"/>
+            <LayoutButtons Face="WOLBunker" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build7" Row="2" Column="0"/>
+            <LayoutButtons Face="WOLMissileTurret" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build6" Row="2" Column="1"/>
+            <LayoutButtons Face="WOLSensorTower" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build9" Row="1" Column="2"/>
+            <LayoutButtons Face="WOLPlanetaryFortress" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build22" Row="1" Column="4"/>
+            <LayoutButtons Face="WOLBuildTechLab" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build23" Row="0" Column="3"/>
+            <LayoutButtons Face="WOLReactor" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build24" Row="0" Column="4"/>
             <LayoutButtons Face="WOLCancel" Type="CancelSubmenu" Row="2" Column="4"/>
-            <LayoutButtons Face="WOLOrbitalCommand" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build21" Row="1" Column="3"/>
+            <LayoutButtons Face="WOLOrbitalCommand" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build21" Row="1" Column="3"/>
         </CardLayouts>
         <CardLayouts CardId="TBl2">
-            <LayoutButtons Face="WOLGhostAcademy" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build10" Row="0" Column="0"/>
-            <LayoutButtons Face="WOLFactory" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build11" Row="1" Column="0"/>
-            <LayoutButtons Face="WOLArmory" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build14" Row="1" Column="1"/>
-            <LayoutButtons Face="WOLStarport" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build12" Row="2" Column="0"/>
-            <LayoutButtons Face="WOLFusionCore" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build16" Row="2" Column="1"/>
-            <LayoutButtons Face="WOLCancel" Type="CancelSubmenu" AbilCmd="WOLTerranMPBuildCustom,Build14" Row="2" Column="4"/>
-            <LayoutButtons Face="WOLOrbitalCommand" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build21" Row="0" Column="3"/>
-            <LayoutButtons Face="WOLUpgradeToPlanetaryFortress" Type="AbilCmd" AbilCmd="WOLTerranMPBuildCustom,Build22" Row="0" Column="4"/>
+            <LayoutButtons Face="WOLGhostAcademy" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build10" Row="0" Column="0"/>
+            <LayoutButtons Face="WOLFactory" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build11" Row="1" Column="0"/>
+            <LayoutButtons Face="WOLArmory" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build14" Row="1" Column="1"/>
+            <LayoutButtons Face="WOLStarport" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build12" Row="2" Column="0"/>
+            <LayoutButtons Face="WOLFusionCore" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build16" Row="2" Column="1"/>
+            <LayoutButtons Face="WOLCancel" Type="CancelSubmenu" AbilCmd="WOLWOLTerranMPBuildCustom,Build14" Row="2" Column="4"/>
+            <LayoutButtons Face="WOLOrbitalCommand" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build21" Row="0" Column="3"/>
+            <LayoutButtons Face="WOLUpgradeToPlanetaryFortress" Type="AbilCmd" AbilCmd="WOLWOLTerranMPBuildCustom,Build22" Row="0" Column="4"/>
         </CardLayouts>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
@@ -228,7 +228,7 @@
         <AIOverideTargetPriority value="10"/>
         <AbilArray Link="move"/>
         <AbilArray Link="CustomBuild"/>
-        <AbilArray Link="ZergBuildCustomMP"/>
+        <AbilArray Link="WOLZergBuildCustomMP"/>
         <CardLayouts>
             <LayoutButtons>
                 <Face value="BuildNeutralStructure"/>
@@ -265,29 +265,29 @@
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
         </CardLayouts>
         <CardLayouts CardId="ZBl1">
-            <LayoutButtons Face="WOLHatchery" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build1" Row="0" Column="0"/>
-            <LayoutButtons Face="WOLExtractor" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build3" Row="0" Column="1"/>
-            <LayoutButtons Face="WOLSpawningPool" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build4" Row="1" Column="0"/>
-            <LayoutButtons Face="WOLEvolutionChamber" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build5" Row="1" Column="1"/>
-            <LayoutButtons Face="WOLBanelingNest" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build11" Row="2" Column="1"/>
+            <LayoutButtons Face="WOLHatchery" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build1" Row="0" Column="0"/>
+            <LayoutButtons Face="WOLExtractor" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build3" Row="0" Column="1"/>
+            <LayoutButtons Face="WOLSpawningPool" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build4" Row="1" Column="0"/>
+            <LayoutButtons Face="WOLEvolutionChamber" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build5" Row="1" Column="1"/>
+            <LayoutButtons Face="WOLBanelingNest" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build11" Row="2" Column="1"/>
             <LayoutButtons Face="WOLCancel" Type="CancelSubmenu" Row="2" Column="4"/>
-            <LayoutButtons Face="WOLRoachWarren" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build14" Row="2" Column="0"/>
-            <LayoutButtons Face="WOLSpineCrawler" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build15" Row="2" Column="2"/>
-            <LayoutButtons Face="WOLSporeCrawler" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build16" Row="1" Column="2"/>
+            <LayoutButtons Face="WOLRoachWarren" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build14" Row="2" Column="0"/>
+            <LayoutButtons Face="WOLSpineCrawler" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build15" Row="2" Column="2"/>
+            <LayoutButtons Face="WOLSporeCrawler" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build16" Row="1" Column="2"/>
         </CardLayouts>
         <CardLayouts CardId="ZBl2">
-            <LayoutButtons Face="WOLSpire" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build7" Row="1" Column="0"/>
-            <LayoutButtons Face="WOLUltraliskCavern" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build8" Row="2" Column="0"/>
+            <LayoutButtons Face="WOLSpire" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build7" Row="1" Column="0"/>
+            <LayoutButtons Face="WOLUltraliskCavern" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build8" Row="2" Column="0"/>
             <LayoutButtons Face="WOLCancel" Type="CancelSubmenu" Row="2" Column="4"/>
-            <LayoutButtons Face="WOLNydusNetwork" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build10" Row="1" Column="1"/>
-            <LayoutButtons Face="WOLInfestationPit" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build9" Row="0" Column="1"/>
-            <LayoutButtons Face="WOLHydraliskDen" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build6" Row="0" Column="0"/>
-            <LayoutButtons Face="WOLBuildCreepTumor" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build25" Row="2" Column="3"/>
-            <LayoutButtons Face="WOLLair" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build21" Row="0" Column="3"/>
-            <LayoutButtons Face="WOLHive" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build22" Row="0" Column="4"/>
-            <LayoutButtons Face="WOLGreaterSpire" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build23" Row="1" Column="3"/>
-            <LayoutButtons Face="WOLSummonNydusWorm" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build24" Row="1" Column="4"/>
-            <LayoutButtons Face="WOLMutateintoLurkerDen" Type="AbilCmd" AbilCmd="WOLZergBuildCustomMP,Build13" Row="0" Column="2"/>
+            <LayoutButtons Face="WOLNydusNetwork" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build10" Row="1" Column="1"/>
+            <LayoutButtons Face="WOLInfestationPit" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build9" Row="0" Column="1"/>
+            <LayoutButtons Face="WOLHydraliskDen" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build6" Row="0" Column="0"/>
+            <LayoutButtons Face="WOLBuildCreepTumor" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build25" Row="2" Column="3"/>
+            <LayoutButtons Face="WOLLair" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build21" Row="0" Column="3"/>
+            <LayoutButtons Face="WOLHive" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build22" Row="0" Column="4"/>
+            <LayoutButtons Face="WOLGreaterSpire" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build23" Row="1" Column="3"/>
+            <LayoutButtons Face="WOLSummonNydusWorm" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build24" Row="1" Column="4"/>
+            <LayoutButtons Face="WOLMutateintoLurkerDen" Type="AbilCmd" AbilCmd="WOLWOLZergBuildCustomMP,Build13" Row="0" Column="2"/>
         </CardLayouts>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
